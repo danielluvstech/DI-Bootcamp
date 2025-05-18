@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ff4d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 2px solid #ff4d4d;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+#addButton {
+    padding: 15px 20px;
+    background: none;
+    border: none;
+    color: #3498db;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.listTasks {
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.task-list-content {
+    flex-grow: 1;
+}
+
+.clear-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px 10px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.delete-btn {
+    color: #ff4d4d;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.delete-btn i {
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task label {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+}
+
+.task input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: red;
+}
+
+#clearButton {
+    background: none;
+    border: none;
+    color: #ff4d4d;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+}
