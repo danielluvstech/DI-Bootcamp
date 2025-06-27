@@ -1,0 +1,14 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week11/Day1/DailyChallenge/index.html
+suggestions for improvement:
+- The code uses GET instead of POST, which is less suitable for sending form data.  POST is generally preferred for forms submitting data.
+- The JSON output is not properly formatted for readability.  It should use `JSON.stringify` with indentation for better presentation.
+- Error handling is missing. The script should handle cases where the user doesn't fill in both fields.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week11/Day1/DailyChallenge/script.js
+suggestions for improvement:
+- Add input type="text" to the form fields for better semantics and accessibility.
+- Use more descriptive variable names (e.g., `firstNameInput` instead of `firstName`).
+- Consider adding error handling (e.g., checking if the fields are empty before creating the JSON).
+Correctness: 95%
+-----
