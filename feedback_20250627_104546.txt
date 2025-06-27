@@ -1,0 +1,37 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/Exercises/blog-api/server.js
+suggestions for improvement:
+- The in-memory data store (`posts` array) is not suitable for production environments.  Consider using a real database (like MongoDB, PostgreSQL, etc.) for persistence and scalability.
+- Implement input validation to prevent injection attacks (e.g., sanitize user inputs before using them in queries).
+- Add more robust error handling, potentially using a centralized error-handling middleware to manage exceptions more effectively.
+- The ID generation is simple and could lead to collisions if multiple requests are made concurrently. Use a more robust ID generation strategy (e.g., UUIDs).
+- Improve readability by extracting repetitive code into helper functions (e.g., findPostById).
+- Add unit tests to ensure the API behaves correctly under various conditions.
+Correctness: 95%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/Exercises/book-api/app.js
+suggestions for improvement:
+- Implement Update (PUT) and Delete (DELETE) routes for books as per Exercise 2 instructions.
+- Improve error handling for invalid input data types (e.g., non-numeric bookId).
+- Use a more robust data store than an in-memory array for production applications (e.g., a database).
+- Add input validation to prevent potential vulnerabilities (e.g., SQL injection, if using a database).
+- Consider adding authentication and authorization mechanisms to secure the API.
+Correctness: 90%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/Exercises/crud-api/app.js
+suggestions for improvement:
+- The code only implements Exercise 3, ignoring Exercises 1 and 2.  It should implement all three exercises to achieve a higher correctness score.
+- Error handling is good in the `fetchPosts` route, but input validation is missing for POST, PUT, and DELETE requests in exercises 1 and 2 (which are not implemented).
+- The `dataService.js` file is missing, which is a crucial part of Exercise 3.  The code assumes its existence and functionality.
+- The code lacks security measures beyond basic error handling.  Consider using input sanitization and validation to prevent vulnerabilities like SQL injection (though not directly relevant to this example using a JSONPlaceholder API).
+- Add more comprehensive tests to improve confidence in the code's functionality and robustness. 
+- Consider using a more robust database solution than an in-memory array for production-level applications (as implied by Exercises 1 and 2).
+- Document the code thoroughly, including function parameters, return values, and error conditions. This improves the overall readability and maintainability.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/Exercises/crud-api/data/dataService.js
+suggestions for improvement:
+- Add comments explaining the purpose of the `try...catch` block.
+- Consider adding input validation or error handling for the API response to ensure it's in the expected format.
+- For better performance in production, implement caching mechanisms to avoid redundant API calls.
+Correctness: 100%
+-----
