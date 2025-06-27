@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f0f8ff;
+    padding: 20px;
+}
+
+#emoji-display {
+    font-size: 5rem;
+    margin: 20px;
+}
+
+#guess-form button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+#feedback {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
