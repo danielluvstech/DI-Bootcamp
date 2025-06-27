@@ -1,0 +1,24 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week12/Day2/Exercises/Exercise/index.html
+suggestions for improvement:
+- Implement error handling for the case when the API request fails or returns an unexpected response.  Currently, only a loading message is displayed; a clear error message is needed (as shown in the project instructions).
+- The `homeworld` data needs to be fetched separately as it's a URL, not directly included in the character data.  Add another `fetch` call within the `displayCharacterInfo` function to retrieve and display the homeworld name.
+- Add input validation to prevent issues with unexpected API responses, such as missing fields.  Check if the API response properties exist before accessing them to prevent errors.
+- Improve styling using CSS for better presentation; the current styling is minimal.
+Correctness: 85%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week12/Day2/Exercises/Exercise/script.js
+suggestions for improvement:
+- Add error handling for the case where the API response is not JSON parsable.
+- Improve styling and add loading animation as described in the instructions.
+- Consider using a more descriptive variable name than `char` in the `displayCharacter` function.
+- Add input validation to ensure that the random ID generated is within the valid range (1-83).  Currently, it's implicitly assumed the API returns a result for every number in that range.
+Correctness: 95%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week12/Day2/Exercises/Exercise/style.css
+suggestions for improvement:
+- The provided code only includes CSS; it lacks the HTML structure and JavaScript functionality to fetch and display Star Wars character data using the specified API.  The CSS is well-structured and readable.
+- Implement the AJAX call using `fetch` or a similar method.  Handle loading and error states as specified in the instructions (loading icon and error message).
+- Add proper error handling to gracefully manage API request failures.
+- Include the button element in the HTML to trigger the data fetch and update.
+Correctness: 70%
+-----
