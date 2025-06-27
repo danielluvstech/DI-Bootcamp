@@ -1,11 +1,11 @@
-// const greet = require('./greeting');
+ const greet = require('./greeting');
 
-// const message = greet ('Daniel');
-// console.log(message);
+ const message = greet ('Daniel');
+ console.log(message);
 
-// import { showColorfulMessage } from './colorful-message.js';
+ import { showColorfulMessage } from './colorful-message.js';
 
-// showColorfulMessage();
+ showColorfulMessage();
 
 import { readFileContent } from './read-file.js';
 
