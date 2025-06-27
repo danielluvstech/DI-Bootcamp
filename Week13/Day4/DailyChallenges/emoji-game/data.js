@@ -7,10 +7,30 @@ const emojis = [
     { emoji: '🍕', name: 'Pizza' },
 ];
 
+function fisherYatesShuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
 function getRandomEmojiSet() {
+    if (emojis.length === 0) throw new Error('Emoji array is empty');
+
     const correct = emojis[Math.floor(Math.random() * emojis.length)];
-    const shuffled = emojis.filter(e => e.name !== correct.name).sort(() => 0.5 - Math.random());
-    const options = [...shuffled.slice(0, 2), correct].sort(() => 0.5 - Math.random());
+
+    let distractors = emojis.filter(e => e.name !== correct.name);
+    if (distractors.length < 2) {
+        // Edge case handling: duplicate some distractors
+        while (distractors.length < 2) {
+            distractors.push(correct); // worst case fallback
+        }
+    }
+
+    distractors = fisherYatesShuffle(distractors).slice(0, 2);
+    const options = fisherYatesShuffle([correct, ...distractors]);
+
     return { emoji: correct.emoji, answer: correct.name, options };
 }
 
