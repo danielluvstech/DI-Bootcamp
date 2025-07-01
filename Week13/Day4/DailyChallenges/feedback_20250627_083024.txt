@@ -1,0 +1,25 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/app.js
+suggestions for improvement:
+- Implement client-side form handling using HTML and JavaScript's Fetch API as specified in the instructions. The current code only provides the server-side API.
+- Add input validation on the server-side to prevent vulnerabilities like SQL injection (although not directly applicable here, it's a good practice).
+- Improve error handling to provide more informative messages to the client.
+- The leaderboard currently stores data in memory.  For a more robust solution, consider using a database to persist leaderboard data between server restarts.
+- Consider adding more sophisticated shuffling to the `generateOptions` function to avoid predictable option orders.
+- The optional advanced features (time limit, user authentication, difficulty levels, hints) are not implemented.
+Correctness: 95%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which is a dependency management file for Node.js projects. It does not contain any code that implements the emoji guessing game described in the chapter content.  To receive a higher correctness score, provide the actual server-side and client-side code for the game.
+- Add server-side code to handle the emoji data, random selection, score tracking, and POST requests from the client.
+- Add client-side code (HTML and JavaScript using the Fetch API) to create the game interface and send user guesses.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which is only a project configuration file. It does not contain any code that implements the emoji guessing game as described in the Chapter Content/Questions.  It only declares a dependency on Express.js, which is a requirement of the task, but it doesn't use it.
+- The chapter requires the creation of an Express server and a game implementation.  This file only sets up the project structure.
+- Add server-side code in an `index.js` file to create the game functionality described.
+- Add client-side code (HTML, CSS and JavaScript using Fetch API) to create the game interface and interact with the server.
+Correctness: 0%
+-----
