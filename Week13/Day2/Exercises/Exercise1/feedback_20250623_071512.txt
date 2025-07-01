@@ -1,0 +1,14 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day2/Exercises/Exercise1/products.js
+suggestions for improvement:
+- The code is excellent and directly addresses Exercise 1.  Consider adding comments to explain the purpose of the array and its structure for enhanced readability.
+- While the performance is good for this small dataset, for larger datasets, consider using more efficient search methods like binary search if the products array is frequently searched.  For now, it's optimal.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day2/Exercises/Exercise1/shop.js
+suggestions for improvement:
+- The `products.js` file is missing.  The assessment cannot be complete without seeing the data source and how it is structured.  The code assumes a specific structure for the `products` array.
+- Error handling could be improved.  While it handles the case where a product is not found, more robust error handling might be beneficial, especially if `products.js` could fail to load or contain unexpected data.
+- Add input validation to prevent unexpected behavior or errors if `productName` is not a string or is empty.
+- Consider using a more descriptive variable name than `p` in the `.find` method, e.g., `product`.
+Correctness: 80%
+-----
