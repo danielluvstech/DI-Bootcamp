@@ -1,0 +1,103 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day3/Exercises/Exercise1/index.html
+suggestions for improvement:
+- Exercise 1: The code correctly iterates through the array and displays the output as requested. However, it could be improved by using a more concise method, such as `forEach` with template literals for better readability.
+- Exercise 2: The code correctly handles ordinal numbers using a ternary operator.  However, it could be made more readable by using a helper function to determine the ordinal suffix.
+- Exercise 3: The code correctly predicts the output of the spread syntax examples. No improvements needed here.
+- Exercise 4: The code successfully uses `map` and `filter` methods. The bonus part, however, is missing.
+- Exercise 5: The code correctly uses `reduce` to concatenate the array elements into a string. No improvements are necessary here.
+- Exercise 6: The code correctly filters students who passed. The bonus using `forEach` is missing.
+Correctness: 85%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day3/Exercises/Exercise1/script.js
+suggestions for improvement:
+- Exercise 1, part 1: The solution correctly displays the colors with their order numbers. However, it doesn't use any array methods as suggested in the instructions. Using `forEach` or `map` would be a more elegant approach and align better with the learning objectives.
+- Exercise 1, part 2: The solution correctly checks for the presence of "Violet" and logs the appropriate message. The `includes` method is efficient and appropriate.
+- Exercise 2 is not implemented.
+- Exercise 3 is not implemented.
+- Exercise 4 is not implemented.
+- Exercise 5 is not implemented.
+- Exercise 6 is not implemented.
+Correctness: 90%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day3/Exercises/Exercise2/index.html
+suggestions for improvement:
+- Exercise 1: The code correctly iterates through the array and logs the output as requested. However, it could be improved by using a more concise loop structure like `forEach`.  The Violet check is implemented correctly.
+- Exercise 2: The code uses a ternary operator effectively to handle ordinal numbers.  The solution is efficient and readable.
+- Exercise 3: The analysis is missing. The code should include the predicted outputs for each of the three parts (1, 2, Bonus).
+- Exercise 4:  The `map()` and `filter()` methods are used correctly, creating the expected arrays. The bonus part is also implemented correctly.
+- Exercise 5: The `reduce()` method is used correctly to combine the array elements into a single string.
+- Exercise 6: The `filter()` method is used correctly to filter passed students. The bonus part with `forEach` is also correct and efficiently implemented.
+Correctness: 85%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day3/Exercises/Exercise2/script.js
+suggestions for improvement:
+- The solution for Exercise 1 could be improved by using a more robust method for handling ordinal suffixes beyond the first three.  A function or a lookup table would be more scalable.
+- Exercise 4, part 3 (bonus): While functional, chaining `filter` and `map` to get only last names of Full Stack Residents is less readable than a dedicated `map` after filtering.  Consider a separate `map` for better clarity.
+- Add comments to explain the logic, especially the ternary operator in Exercise 2, to enhance readability.
+Correctness: 95%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day3/Exercises/Exercise3/index.html
+suggestions for improvement:
+- Exercise 1:  The solution correctly iterates and displays the colors with the correct numbering. However, it could be made more concise using a `forEach` loop and template literals.
+- Exercise 1: The check for 'Violet' is correct and efficient.
+- Exercise 2: The solution is mostly correct but doesn't handle ordinal numbers beyond 'rd' correctly.  A more robust solution using a lookup table or modulo operator is recommended.
+- Exercise 3: The analysis of the spread syntax examples is perfectly accurate.
+- Exercise 4: The `map` and `filter` methods are used correctly, and the bonus task is also implemented correctly. However, the variable names could be more descriptive.
+- Exercise 5: The `reduce` method is used correctly to combine the strings.
+- Exercise 6:  The `filter` method is used correctly. The bonus `forEach` is also implemented correctly.  Consider using template literals for cleaner string concatenation.
+Correctness: 85%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day3/Exercises/Exercise3/script.js
+suggestions for improvement:
+- The code is already quite concise and readable.  Minor improvements could be made by adding comments to explain the spread syntax for those unfamiliar with it.
+- For the bonus exercise (let newArray = [...[,,]];), a brief comment explaining the result (creating an array with three empty slots) would enhance readability.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day3/Exercises/Exercise4/index.html
+suggestions for improvement:
+- Exercise 1: The code correctly iterates and displays the colors with their index, fulfilling the first requirement. However, it doesn't use array methods as suggested.  Using a `forEach` loop would be more aligned with the lesson's intent.
+- Exercise 1: The code for checking if 'Violet' exists is correct and uses the `includes()` method, aligning with the lesson.
+- Exercise 2: The code correctly handles ordinal numbers using a ternary operator and fulfills the requirement but doesn't use array methods in the most efficient way. A `map` function would be cleaner and more efficient.
+- Exercise 3: The analysis of the three code snippets is correct.  No improvement needed.
+- Exercise 4: Part 1 (map) is correctly implemented. Part 2 (filter) is also correctly implemented. The bonus part (chain filter and map) is also correctly implemented. All perfectly align with the instructions and demonstrate understanding of `map` and `filter`.
+- Exercise 5: The reduce method is correctly used to combine the array elements into a single string.  No improvements needed.
+- Exercise 6: The filter method correctly identifies and returns students who passed. The bonus part (chain filter and forEach) correctly iterates and displays the congratulatory messages. All perfectly align with the instructions and demonstrate understanding of `filter` and `forEach`.
+Correctness: 85%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day3/Exercises/Exercise4/script.js
+suggestions for improvement:
+- The solution for Exercise 4, part 3 (bonus), is missing.  The instructions asked to chain `filter` and `map` to get an array of just the last names of Full Stack Residents.  This should be added.
+- Consider adding comments to explain the purpose of each section of code, especially for the `map` and `filter` operations. This enhances readability.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day3/Exercises/Exercise5/index.html
+suggestions for improvement:
+- Exercise 1: The code correctly iterates through the array and displays the output as requested. However, it could be made more concise by using a for...of loop or map method.
+- Exercise 2: The code correctly handles ordinal numbers, but using a ternary operator within a loop isn't ideal for readability.  A helper function to determine ordinal suffix would improve readability.
+- Exercise 3: The code's analysis is correct. No improvements needed.
+- Exercise 4: The map and filter methods are used correctly.  The bonus section correctly chains filter and map.  Good job!
+- Exercise 5: The reduce method is correctly used to combine the array elements into a single string.  Good job!
+- Exercise 6: The filter method is correctly used to create a new array of passed students.  The bonus section using forEach is also well-implemented. Good job!
+- General:  Consider adding comments to explain the logic in more complex parts of the code.  This improves readability and maintainability.  All exercises generally follow good coding practices, which is commendable.
+Correctness: 85%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day3/Exercises/Exercise5/script.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day3/Exercises/Exercise6/index.html
+suggestions for improvement:
+- In Exercise 1, using a `for` loop with an index would be more efficient and readable than `forEach`. The current solution is functional but less concise.
+- Exercise 2 could use a more efficient method for ordinal suffix generation instead of relying on a limited array.  A function that calculates the suffix based on the number would be more robust.
+- Exercise 6's bonus part could be improved by using template literals for better string formatting in the console messages.  This improves readability.
+- Add comments to explain complex logic or less obvious parts of code. This enhances readability and maintainability.
+Correctness: 85%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day3/Exercises/Exercise6/script.js
+suggestions for improvement:
+- The code correctly filters the students array to include only those who passed. However, it doesn't include the bonus part of Exercise 6, which requires congratulatory messages using forEach.
+- Add error handling for the case where the input array `students` is empty or undefined.
+- The variable name `passedStudents` is clear and descriptive.
+Correctness: 80%
+-----

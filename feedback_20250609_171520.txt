@@ -1,0 +1,27 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week11/Day5/DailyChallenge/index.html
+suggestions for improvement:
+- Improve error handling: The current `try...catch` block only logs errors to the console.  It should provide more user-friendly feedback (e.g., display a message on the page) if the API request fails.
+- Add input validation:  The code doesn't validate the user input.  Consider adding checks to prevent empty or excessively long search terms.
+- Enhance styling: The CSS could be improved to better arrange and style the elements on the page for better visual appeal.
+- Refactor `displayGif`: The function is a bit long; breaking it down into smaller, more focused functions would improve readability and maintainability.
+- Use more descriptive variable names: Some variable names (like `data`) could be more descriptive (e.g., `gifData`).
+Correctness: 95%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week11/Day5/DailyChallenge/script.js
+suggestions for improvement:
+- Improve error handling to provide more specific user feedback (e.g., differentiate between network errors and API errors).
+- Add input validation to prevent unexpected behavior with malicious or unusual input.
+- Consider adding loading indicators to improve user experience while fetching GIFs.
+- Enhance styling of the GIF card and buttons for better visual appeal.
+- Use a more descriptive ID for the `deleteAll` button (e.g., `deleteAllButton`).
+Correctness: 95%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week11/Day5/DailyChallenge/style.css
+suggestions for improvement:
+- Add error handling for the case where the Giphy API request fails (e.g., network error or API rate limit).  The current code doesn't handle potential `fetch` errors.
+- Improve the user experience by providing feedback to the user while fetching the GIF (e.g., a loading indicator).
+- Consider using a more descriptive variable name than `data` for the API response.
+- The CSS could be improved by using more semantic class names and potentially a CSS preprocessor for better maintainability.
+- Add a visual cue (like a confirmation alert) when the gifs are deleted successfully.
+Correctness: 85%
+-----
