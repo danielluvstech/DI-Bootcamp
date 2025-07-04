@@ -1,0 +1,34 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week11/Day3/DailyChallenges/DailyChallenge1/index.html
+suggestions for improvement:
+- The `makeAllCaps` function could include more robust error handling, for instance specifying the type of error when rejecting the promise (e.g., 'Not all elements are strings').
+- The `sortWords` function's error handling could also be more descriptive, indicating that the array length is insufficient.
+- In the second challenge, add input validation to handle cases where the user inputs nothing or provides invalid input (non-alphanumeric characters beyond what's in the Morse code object).
+- The `toMorse` function should explicitly handle cases where the input string is empty or contains only spaces.  Consider a more user-friendly approach to requesting user input instead of relying on `prompt` (which is considered bad practice for many reasons).  Using a more robust method (e.g., a form or input element paired with an event listener) will prevent the code from immediately blocking execution and allow for easier validation and handling of different input conditions.
+- The second challenge lacks clear visual feedback to the user about the results.  It should be more explicit about what's being displayed on the page by updating the DOM with a clear message (e.g., 'Morse Code Translation:').
+- Consider using `async/await` for better readability and flow in the promise chains.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week11/Day3/DailyChallenges/DailyChallenge1/script.js
+suggestions for improvement:
+- The error messages could be more user-friendly.  For example, instead of "All elements must be strings." consider "The input array must contain only strings."
+- The `sortWords` function could include a check to ensure the input array is indeed an array of strings before sorting, to prevent unexpected behavior.  This would improve robustness.
+- Consider adding comments explaining the purpose of each function and its parameters.  This will enhance readability.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week11/Day3/DailyChallenges/DailyChallenge2/index.html
+suggestions for improvement:
+- Improve error handling in `toMorse` to provide more specific error messages to the user (e.g., which character caused the error).
+- Add input validation in `toMorse` to handle cases where the user enters only spaces or empty strings.
+- In `toJs`, consider using `JSON.parse` for a more robust and efficient JSON parsing method.
+- The `joinWords` function should handle potential errors gracefully (e.g., if `morseTranslation` is unexpectedly null or undefined).
+- Add comments to explain the purpose of each function and any complex logic within the functions.
+- Use more descriptive variable names (e.g., instead of `morseJS`, use `morseObject`).
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week11/Day3/DailyChallenges/DailyChallenge2/script.js
+suggestions for improvement:
+- Add input validation to handle cases where the user enters only spaces or non-alphanumeric characters in `toMorse` function.  Currently, it only handles empty input strings.
+- The `joinWords` function could be improved by adding a check to ensure the `output` div exists before attempting to access it. The current error handling within the `.catch` block already does this, but consolidating this would be better.
+- Consider using `console.error` instead of `alert` for debugging purposes within the `catch` block.  Alerts can be disruptive to the user experience.
+Correctness: 95%
+-----

@@ -1,0 +1,33 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/data.js
+suggestions for improvement:
+- The code only provides the backend logic for generating a random emoji and options.  It's missing the Express server setup, the API endpoint to handle the POST request from the form, the form itself (frontend), and the score tracking/leaderboard functionality.  These are all crucial requirements mentioned in the Chapter Content/Questions.
+- The edge case handling in `getRandomEmojiSet` could be improved.  Instead of adding the correct emoji as a distractor, consider adding a default set of distractor emojis or handling the case where there are fewer than 3 emojis in the input.
+- Add input validation to ensure that the emoji array is not null or undefined before accessing its properties.
+Correctness: 60%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/server.js
+suggestions for improvement:
+- The `getRandomEmojiSet` function is not provided, making the code incomplete.  A sample implementation needs to be added for this to work.
+- Error handling could be improved.  Currently, only general error messages are returned.
+- Input validation is minimal.  The server should validate the data received from the client more thoroughly to prevent vulnerabilities (e.g., check for unexpected data types or malicious input).
+- The leaderboard is stored in memory.  For a production application, a persistent storage solution (database) should be used.
+- Add client-side code (using Fetch API as instructed) to interact with the API endpoints and display the game to the user.  The server-side code is only half of the solution.
+Correctness: 90%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/public/index.html
+suggestions for improvement:
+- The HTML file only sets up the basic structure.  It lacks the crucial JavaScript logic to fetch emojis, generate options, handle user input (POST request using Fetch API), update scores, and manage the leaderboard.  The chapter explicitly requires the use of an Express API and Node.js modules, neither of which are present in this HTML.
+- The styling (style.css) and JavaScript logic (script.js) are completely missing, making the assessment of those aspects impossible.
+- Add error handling for network requests and edge cases (e.g., empty emoji array).
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/public/script.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/public/style.css
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
