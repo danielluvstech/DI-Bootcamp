@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Knex migration/seed logs (if any)
+.knex_history
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# PostgreSQL dump files
+*.sql
+
+# OS/system junk
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Build output (if applicable)
+dist/
+build/
