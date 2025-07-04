@@ -1,0 +1,106 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/blog-api/knexfile.js
+suggestions for improvement:
+- The provided code is a Knex.js configuration file, not an Express.js API.  The exercises require building RESTful APIs using Express and connecting to a Postgres database using Knex. This code only sets up the database connection configuration.
+- The code lacks error handling for database connections.  It should include robust error handling to manage connection failures gracefully.
+- Hardcoding database credentials ('D@nth3man') directly in the code is a severe security risk. Use environment variables to store sensitive information.
+- The code doesn't implement any API routes (GET, POST, PUT, DELETE) as required by the exercises.
+- The exercises specify the use of a `posts` table.  The configuration shows `my_db` which might not contain that table. The configuration should be updated to create the `posts` table or include appropriate migrations.
+Correctness: 20%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/blog-api/migrations/20250704101411_create_posts_table.js
+suggestions for improvement:
+- The provided code only creates the 'posts' table in a PostgreSQL database using Knex.js.  It does not implement any of the Express.js API functionality required in Exercise 1 or the CRUD operations in Exercise 2.
+- The code is missing the entire Express.js server setup, routing, and controllers to handle HTTP requests.
+- The code lacks error handling and data validation.
+- Implement the Express.js server, routes, and controllers to interact with the 'posts' table.
+- Add error handling to gracefully handle database errors and invalid requests.
+- Implement input validation to prevent SQL injection and data integrity issues.
+Correctness: 20%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/blog-api/migrations/20250704101903_create_posts_table.js
+suggestions for improvement:
+- The provided code is an empty Knex migration file. It does not implement any of the functionality described in the exercises (creating an Express API, connecting to a database, defining routes, etc.).
+- The `up` and `down` functions should contain SQL statements to create and drop the 'posts' and 'books' tables respectively.  The exercises require these tables.
+- Add SQL statements to create the tables with appropriate columns (id, title, content for posts; id, title, author, publishedYear for books).
+- The exercise requires building an Express.js API, not just database migrations.  This code only addresses database schema, not the API implementation.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/blog-api/migrations/20250704102150_create_posts_table.js
+suggestions for improvement:
+- The provided code is an empty migration file for Knex.js. It doesn't implement any of the functionality described in the exercises (building RESTful APIs with Express.js and connecting to a PostgreSQL database).
+- The `up` and `down` functions should contain SQL statements to create and drop the `posts` and `books` tables respectively.
+- Add proper table schema definitions within the `up` and `down` functions for `posts` and `books` tables, including specifying data types and constraints for the columns (id, title, content, author, publishedYear etc.).
+- The exercises require building Express.js APIs, which is not addressed by this code.  The code only shows migration files for database schema.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/blog-api/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, not the actual implementation of the API.  It only shows the dependencies used, not the code that uses those dependencies to build and run the API.
+- The exercises require the creation of a RESTful API with CRUD operations for blog posts and books, interacting with a PostgreSQL database.  This requires Express.js for the API, Knex.js for database queries, and server-side code to handle routes and database interactions. None of this is present in the provided file.
+- The `package-lock.json` indicates that `dotenv` is used;  it should be used to load environment variables securely (like database credentials) in a `.env` file, not hardcoded in the application.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/blog-api/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which only defines project dependencies and metadata.  It does not contain any implementation of the Express server or database interactions described in the exercises.
+- The exercises require building an Express API with database connectivity (using PostgreSQL via Knex).  This `package.json` only lists necessary packages; the actual API code is missing.
+- Implement the server.js file, routes, controllers, models and database interactions as specified in the instructions. 
+- Implement robust error handling (beyond basic 404s) and input validation to enhance security.  Consider using parameterized queries in Knex to prevent SQL injection vulnerabilities.
+- Add a `.gitignore` file to exclude sensitive data like database credentials.
+Correctness: 20%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/blog-api/server/config/db.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/blog-api/server/controllers/postsController.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/blog-api/server/models/postsModel.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/blog-api/server/routes/postsRoutes.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/blog-api/server/server.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/book-api/app.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/book-api/package-lock.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/book-api/package.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/book-api/server/config/controllers/booksController.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/book-api/server/config/models/booksModel.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/Exercises/book-api/server/config/routes/booksRoutes.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
