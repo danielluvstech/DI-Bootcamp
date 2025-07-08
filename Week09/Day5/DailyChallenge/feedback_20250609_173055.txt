@@ -1,0 +1,16 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day5/DailyChallenge/index.html
+suggestions for improvement:
+- The `Video` class is well-structured and fulfills the requirements of creating a class with a constructor and a `watch()` method.
+- The bonus part of creating and instantiating five `Video` objects from an array is implemented correctly using a suitable data structure (an array of objects).
+- The code could benefit from more robust input validation (e.g., ensuring `time` is a non-negative number).
+- Adding comments to explain the purpose of the array and the loop would improve readability.
+- Consider using template literals for cleaner string concatenation in the `watch()` method.
+Correctness: 85%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week09/Day5/DailyChallenge/script.js
+suggestions for improvement:
+- The code successfully creates the `Video` class with the specified constructor and `watch()` method, fulfilling requirements 1 and 2.
+- It instantiates two `Video` objects and calls the `watch()` method for each, satisfying requirement 3 and 4.
+- The bonus requirements (5 and 6) are not implemented.  The code should be extended to include an array to store data for five `Video` instances and then loop through the array to create and use those instances.
+Correctness: 90%
+-----
