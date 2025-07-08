@@ -1,0 +1,30 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day2/DailyChallenge/daily-challenge/app.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day2/DailyChallenge/daily-challenge/challenge.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day2/DailyChallenge/daily-challenge/colorful-message.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day2/DailyChallenge/daily-challenge/greeting.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day2/DailyChallenge/daily-challenge/read-file.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day2/DailyChallenge/daily-challenge/files/file-data.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
