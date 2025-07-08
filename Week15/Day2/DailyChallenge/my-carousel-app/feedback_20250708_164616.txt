@@ -1,0 +1,59 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/DailyChallenge/my-carousel-app/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file, not a React carousel implementation.  It defines linting rules for JavaScript and React code but does not build a carousel.
+- The chapter explicitly requires building a React carousel using the `react-responsive-carousel` package. This code does not address that requirement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/DailyChallenge/my-carousel-app/index.html
+suggestions for improvement:
+- The provided code is only an HTML file, setting up a basic React application structure.  It doesn't contain any React code, let alone code that uses the `react-responsive-carousel` package or displays the specified images.  The instructions explicitly require building a React carousel using that package.
+- Add the React code (App.jsx, etc.) to implement the carousel using the `react-responsive-carousel` package.  Import the necessary components, fetch and display the specified images within the carousel.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/DailyChallenge/my-carousel-app/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, not a React application.  It lists the dependencies needed for a React carousel, including `react-responsive-carousel`, React, React-DOM, and Bootstrap.  However, it doesn't contain the actual React code to build the carousel.
+- To achieve a 100% correctness score,  the `package-lock.json` should be accompanied by the actual React component code that utilizes the listed packages to create the carousel as specified in the instructions.
+- Add comments to the React component code to explain the purpose of different sections and the usage of the `react-responsive-carousel` API.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/DailyChallenge/my-carousel-app/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file.  It correctly lists the necessary dependencies (`react-responsive-carousel`, `react`, `react-dom`, `bootstrap`) for building a React carousel as specified in the instructions. However, it doesn't contain the actual React component code implementing the carousel.  The instructions require building the carousel, not just defining the project dependencies.
+- Add the actual React component code that utilizes `react-responsive-carousel` to create the carousel with the specified images.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/DailyChallenge/my-carousel-app/src/App.css
+suggestions for improvement:
+- The provided CSS code does not create a React carousel. It's a basic CSS styling for a webpage, including animations for a logo.  It doesn't use React components, JSX, or the `react-responsive-carousel` package, all of which are explicitly mentioned as learning objectives and requirements in the chapter content.
+- The code should be replaced with a React application that utilizes the `react-responsive-carousel` package to render the carousel with the specified images.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/DailyChallenge/my-carousel-app/src/App.jsx
+suggestions for improvement:
+- Add styling to improve the visual appeal of the carousel.  The current implementation is functional but could benefit from custom CSS to match the design shown in the demo.
+- Consider adding error handling for image loading failures.  If an image URL is invalid, the carousel might break.  A fallback image or error message would improve robustness.
+- Explore adding more features from the `react-responsive-carousel` package, such as navigation arrows or indicators, for a richer user experience.
+- The `legend` text is below each image. Consider improving this visually, perhaps by making it part of the image or using a different styling approach.
+Correctness: 95%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/DailyChallenge/my-carousel-app/src/index.css
+suggestions for improvement:
+- This CSS code does not create a React carousel.  It only defines styling rules.  The instructions clearly state to build a React carousel using the `react-responsive-carousel` package. No React code or carousel implementation is present.
+- Add React code using the `react-responsive-carousel` package to fulfill the assignment requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/DailyChallenge/my-carousel-app/src/main.jsx
+suggestions for improvement:
+- The provided code only sets up the React application and imports necessary CSS files.  It does not contain the actual implementation of the React carousel using `react-responsive-carousel`.
+- The `App.jsx` component is missing, which is where the carousel logic should reside.  The instructions clearly state that the carousel should be built within the `App` component.
+- Add the actual carousel component from `react-responsive-carousel` within `App.jsx` and use the image URLs provided in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/DailyChallenge/my-carousel-app/vite.config.js
+suggestions for improvement:
+- This code is a Vite configuration file, not a React application.  It doesn't implement a carousel.
+- The instructions require building a React carousel using the `react-responsive-carousel` package. This code provides a Vite configuration for building a React app, but doesn't contain any React code or the carousel implementation.
+- Add the necessary React components and import the carousel package to build the carousel as instructed.
+Correctness: 0%
+-----

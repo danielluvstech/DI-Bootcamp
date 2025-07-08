@@ -1,0 +1,60 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day5/Exercises/book-api/app.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day5/Exercises/book-api/package-lock.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day5/Exercises/book-api/package.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day5/Exercises/book-api/routes/books.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day5/Exercises/new-express-app/app.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day5/Exercises/new-express-app/package-lock.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day5/Exercises/new-express-app/package.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day5/Exercises/new-express-app/routes/index.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day5/Exercises/todo-api/app.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day5/Exercises/todo-api/package-lock.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day5/Exercises/todo-api/package.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day5/Exercises/todo-api/routes/todo.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
