@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  max-width: 500px;
+  margin: 50px auto;  /* This centers the container horizontally */
+  font-family: Arial;
+}
+
+.para {
+  color: blue;
+  font-weight: bold;
+}
+
+a {
+  display: block;
+  margin: 10px 0;
+  color: purple;
+  text-decoration: underline;
+}
+
+form {
+  margin: 15px 0;
+}
+
+img.react-img {
+  width: 300px;
+  margin: 20px 0;
+}
