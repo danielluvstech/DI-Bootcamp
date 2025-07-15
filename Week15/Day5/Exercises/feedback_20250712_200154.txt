@@ -1,0 +1,215 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise1/react-error-boundary-demo/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file. It does not implement any of the React components or functionality described in the exercises.
+- The exercises require creating React components (`BuggyCounter`, `ErrorBoundary`, a component for Exercise 2, and a `Child` component for Exercise 3), handling events (`onClick`), and implementing React lifecycle methods (`componentDidCatch`, `shouldComponentUpdate`, `componentDidUpdate`, `componentWillUnmount`, `getSnapshotBeforeUpdate`).  This ESLint config does none of that.
+- The ESLint configuration itself is well-structured and readable, using standard configurations and specifying rules clearly.  However, it's irrelevant to the given task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise1/react-error-boundary-demo/index.html
+suggestions for improvement:
+- The provided code is only an HTML file.  It lacks the actual React components (`App.js`, `ErrorBoundary.js`, `Child.js`) and the implementation details necessary to address Exercises 1, 2, and 3.  The exercises require building React components with specific lifecycle methods and error handling, which is entirely absent from this HTML structure.
+- Add the necessary JavaScript files (`App.js`, `ErrorBoundary.js`, `Child.js`) to implement the exercises.
+- Implement the `BuggyCounter`, `ErrorBoundary`, and `Child` components as class components, including the specified lifecycle methods (`componentDidCatch`, `shouldComponentUpdate`, `componentDidUpdate`, `getSnapshotBeforeUpdate`, `componentWillUnmount`).
+- Implement the error handling and state management as detailed in the exercise instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise1/react-error-boundary-demo/package-lock.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes project dependencies. It does not contain any React code to address the exercises outlined in the chapter content.  To receive a correctness score, you need to provide the React component code for `BuggyCounter` and `ErrorBoundary`, as well as the `App` component showcasing the three simulations.  You also need to provide the code for Exercise 2 and Exercise 3, which involve React lifecycle methods.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise1/react-error-boundary-demo/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file.  It defines the project dependencies and scripts for a React application using Vite, but it doesn't contain any code related to the exercises described in the Chapter Content/Questions.  It lacks the `App.js`, `ErrorBoundary.js`, and any implementation of the React lifecycle methods or error handling specified in the exercises.
+- To receive a higher correctness score, provide the actual React component code for `App.js`, `ErrorBoundary.js`, and any other necessary files, implementing the error boundary, lifecycle methods (`shouldComponentUpdate`, `componentDidUpdate`, `componentWillUnmount`, `getSnapshotBeforeUpdate`), and the interactions (button clicks, state updates) described in the exercises. 
+- The `package.json` is well-structured and readable, and the use of Vite indicates a good choice of build tool.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise1/react-error-boundary-demo/src/App.css
+suggestions for improvement:
+- The provided CSS is unrelated to the exercises described in the Chapter Content/Questions.  The exercises focus on React concepts like lifecycle methods, error boundaries, and event handlers. This CSS provides styling for a webpage, but doesn't contribute to the solution of any of the React exercises.
+- The chapter explicitly asks for the creation of React components (`BuggyCounter`, `ErrorBoundary`, `Child`), implementation of lifecycle methods (`componentDidCatch`, `shouldComponentUpdate`, `componentDidUpdate`, `getSnapshotBeforeUpdate`, `componentWillUnmount`), and handling of events (`onClick`).  None of this is addressed by the CSS.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise1/react-error-boundary-demo/src/App.jsx
+suggestions for improvement:
+- The `ErrorBoundary` component could be improved by providing more informative error messages to the user, rather than just a generic message.  Consider including the error type and a more user-friendly explanation.
+- Add more robust error handling in `BuggyCounter` to prevent unexpected crashes outside of the counter reaching 5. For instance, consider what happens if `handleClick` is called unexpectedly before the component mounts.
+- Consider adding styling to the error messages displayed by the `ErrorBoundary` to make them visually distinct and easier to understand.
+- The App component could benefit from a clearer separation of concerns; perhaps move the simulation sections into separate functional components.
+Correctness: 95%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise1/react-error-boundary-demo/src/BuggyCounter.jsx
+suggestions for improvement:
+- The `ErrorBoundary` component is missing.  The instructions clearly state to create this component in a separate file and use it to wrap `BuggyCounter` in the simulations.
+- The error message displayed in the `ErrorBoundary` (if it were implemented) needs to be improved to include the details specified.  Currently, there's no error handling.
+- The simulations (Simulation 1, 2, and 3) are not implemented in the provided code. The code only provides the `BuggyCounter` component.
+- Exercise 2 and 3 are completely missing.  The code only addresses part of Exercise 1.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise1/react-error-boundary-demo/src/ErrorBoundary.jsx
+suggestions for improvement:
+- The provided `ErrorBoundary` component correctly implements the `componentDidCatch` lifecycle method to handle errors and display a fallback UI.  However, it's missing the implementation of the `BuggyCounter` component and the different simulation setups (Simulation 1, 2, and 3) as described in Exercise 1.  The code only provides the `ErrorBoundary` itself.
+- Exercise 2 and 3 are completely missing. The provided code only addresses a part of Exercise 1.
+- Add more comprehensive error handling in `componentDidCatch`.  Consider logging the error to a remote service for monitoring and debugging purposes.  The current implementation only displays the error in the UI.
+- The comments in the code could be improved to be more descriptive and concise.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise1/react-error-boundary-demo/src/index.css
+suggestions for improvement:
+- The provided code is CSS styling; it does not implement any of the JavaScript React components or functionality described in the exercises.  No React code is present.
+- The exercises require implementing `BuggyCounter`, `ErrorBoundary`, and handling React lifecycle methods (`shouldComponentUpdate`, `componentDidUpdate`, `componentWillUnmount`, `getSnapshotBeforeUpdate`, `componentDidCatch`).  None of this is present.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise1/react-error-boundary-demo/src/main.jsx
+suggestions for improvement:
+- **Exercise 1:** The `ErrorBoundary` component's rendering of the error details could be improved for user experience.  Instead of directly displaying `error.toString()` and `errorInfo.componentStack`, consider creating a more user-friendly error message, perhaps with a simple message like 'Something went wrong!' and a link to contact support.  The stack trace is primarily for developers.
+- **Exercise 1:**  Add more robust error handling within the `BuggyCounter`'s `handleClick` function.  Currently, it only throws an error for the counter reaching 5.  Consider handling potential errors during the increment itself, such as the counter not being a number.
+- **Exercise 2 - Part I:** The instructions specify that setting `shouldComponentUpdate` to false prevents updating the color, but this isn't inherently true; it just prevents re-rendering unless the props or state *relevant to the rendering* are changed.  To accurately demonstrate the effect of `shouldComponentUpdate`, explicitly add a new variable into the JSX that only changes when the state is updated.
+- **Exercise 2 - Part II & III:**  The instructions for Parts II and III are unclear. Providing clearer guidance and specific tasks would improve the exercise. For example, have a distinct task/output expectation for `componentDidUpdate` and `getSnapshotBeforeUpdate` rather than combining the effect (logging and displaying). Adding specific message outputs in the `div` would improve verifiability.
+- **Exercise 3:** The exercise instructions are fairly well-defined, but adding a specific output expectation for the unmounted message (e.g., a test for a particular alert message) would help in evaluation.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise1/react-error-boundary-demo/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file. It's not related to the React exercises described in the chapter content.  It doesn't implement any of the functionalities (React lifecycle, event handlers, error boundaries) mentioned.
+- To address the exercises, you need to create React components (`BuggyCounter`, `ErrorBoundary`, etc.) and implement the logic described in the instructions.  This Vite config is only used for setting up the development environment.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise2/react-lifecycle/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file, not a React application. It doesn't address any of the exercises related to React lifecycle, error boundaries, or event handlers.
+- The ESLint configuration is well-structured and uses standard practices.  It includes necessary plugins for React and good settings for managing unused variables.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise2/react-lifecycle/index.html
+suggestions for improvement:
+- The provided HTML file is a standard Vite + React project setup.  It doesn't contain any of the React components or logic described in the exercises.  The exercises require creating `BuggyCounter`, `ErrorBoundary`, and modifying a component to utilize lifecycle methods (`shouldComponentUpdate`, `componentDidUpdate`, `getSnapshotBeforeUpdate`, `componentWillUnmount`).  No such code is present.
+- Add the React components and logic as described in the exercise instructions.  Structure the code to implement the three simulations for the error boundary and the lifecycle method exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise2/react-lifecycle/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, not React code.  It lists dependencies for a React project but doesn't contain the actual implementation of the exercises.
+- To provide a meaningful evaluation, please provide the actual React code (`App.js`, `ErrorBoundary.js`, and potentially other component files) implementing the exercises described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise2/react-lifecycle/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which defines project dependencies and scripts. It does not contain any React code implementing the exercises described in the chapter content.  To assess correctness, provide the actual React component code.
+- Add the actual React component code for `BuggyCounter`, `ErrorBoundary`, and the components for Exercise 2 and Exercise 3.
+- Ensure that the code handles error scenarios and edge cases, as described in the instructions.
+- The `package.json` itself is well-formatted and uses standard naming conventions. 
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise2/react-lifecycle/src/App.css
+suggestions for improvement:
+- The provided CSS code is unrelated to the chapter content, which focuses on React lifecycle methods, error boundaries, and event handlers.  It's a stylesheet for a web page, not React code.
+- The exercise requires implementing React components (`BuggyCounter`, `ErrorBoundary`, and potentially a `Child` component in later exercises), handling state updates, and using lifecycle methods (`componentDidCatch`, `shouldComponentUpdate`, `componentDidUpdate`, `componentWillUnmount`, `getSnapshotBeforeUpdate`). None of this is present in the provided code.
+- Add React code that implements the requirements of Exercise 1, Exercise 2, and Exercise 3 as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise2/react-lifecycle/src/App.jsx
+suggestions for improvement:
+- Exercise 1 (Error Boundary): The provided code does not implement the `BuggyCounter` and `ErrorBoundary` components as instructed. It's missing the core functionality of error handling and fallback UI.  The simulation scenarios are not addressed.
+- Exercise 2 (Lifecycle): The provided code only partially addresses Exercise 2.  While it includes `LifecycleDemo` and `FavoriteColor`, it doesn't fully demonstrate all parts of Exercise 2, specifically Part III (getSnapshotBeforeUpdate) and the detailed requirements of Part II (adding console logs and specific output).  It lacks the `Child` component and unmounting functionality required for Exercise 3. 
+- Exercise 3 (Lifecycle #2): This exercise is entirely missing from the provided code. The `Child` component and the functionality for mounting and unmounting are absent.
+- Structure: Separate the exercises into distinct files (e.g., Exercise1.js, Exercise2.js, Exercise3.js) for better organization and maintainability. This improves readability and makes testing individual components easier.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise2/react-lifecycle/src/FavoriteColor.jsx
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise2/react-lifecycle/src/LifecycleDemo.jsx
+suggestions for improvement:
+- The provided code only addresses part of Exercise 2 (Lifecycle). It correctly implements `getDerivedStateFromProps`, `shouldComponentUpdate`, `getSnapshotBeforeUpdate`, and `componentDidUpdate`, demonstrating the updating phase of the React lifecycle. However, it doesn't include the other parts of Exercise 2 (Part I: setting `shouldComponentUpdate` to false, Part III:  adding console logs and modifying the DOM based on previous and current state) nor does it address Exercise 1 (Error Boundaries) or Exercise 3 (componentWillUnmount).
+- Add the missing parts of Exercise 2 to fully address the requirements of that exercise.  Specifically, implement the `shouldComponentUpdate` returning `false` scenario and the DOM manipulation in Part III using prevState and the current state within `getSnapshotBeforeUpdate` and `componentDidUpdate` respectively.
+- Implement Exercise 1 (Error Boundary) by creating `BuggyCounter` and `ErrorBoundary` components as described. Include all three simulations to demonstrate the error handling capabilities.
+- Implement Exercise 3 by creating the `Child` component, adding the `show` state variable, and handling component unmounting with `componentWillUnmount` and a delete button.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise2/react-lifecycle/src/index.css
+suggestions for improvement:
+- The provided CSS is a stylesheet and does not contain any JavaScript code to address the exercises.  It's well-written CSS, but irrelevant to the assignment.
+- Provide the React components (`App.js`, `BuggyCounter.js`, `ErrorBoundary.js`, and the solution to Exercise 2) as JavaScript code to get a proper assessment.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise2/react-lifecycle/src/main.jsx
+suggestions for improvement:
+- Exercise 1:  The `ErrorBoundary` component's rendering of the error details could be improved for user experience.  Consider using a more user-friendly way to display the error information instead of the raw `error.toString()` and `errorInfo.componentStack`. A simple message like 'An error occurred. Please try again later.' would be more appropriate for end-users.
+- Exercise 1: Add more robust error handling in the `BuggyCounter` component to prevent unexpected crashes beyond the counter reaching 5. For example, check for invalid input types.
+- Exercise 2: Part I & II: The instructions for Exercise 2, Part I and II, are unclear about the expected interaction. The 'Expected Output' images depict different scenarios than are clearly explained in the instructions. This should be clarified in the exercise description.
+- Exercise 2: Part III:  The instructions for Part III are incomplete and confusing.  It mentions using `getSnapshotBeforeUpdate` and `componentDidUpdate` but doesn't specify what specific actions or outputs are expected beyond logging messages to the console.  The expected behavior should be more precisely defined.
+- Exercise 3: The `Child` component should ideally be separated into its own file for better organization and maintainability.
+Correctness: 85%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise2/react-lifecycle/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file. It's not related to the React exercises described in the chapter content.  It needs to be replaced with React code that implements the `BuggyCounter`, `ErrorBoundary`, and lifecycle method exercises.
+- Implement the `BuggyCounter` component as a class component with a counter state, `handleClick` method to increment the counter, and error handling when the counter reaches 5.
+- Create the `ErrorBoundary` class component with `componentDidCatch` to handle errors from child components and render a fallback UI.
+- Implement the three simulations as described, wrapping `BuggyCounter` with `ErrorBoundary` components appropriately.
+- Implement Exercise 2: Lifecycle, including `shouldComponentUpdate`, `componentDidUpdate`, and `getSnapshotBeforeUpdate` to demonstrate React's updating lifecycle.
+- Implement Exercise 3: Lifecycle #2, adding a `Child` component, and using `componentWillUnmount` to show the unmounting phase of the lifecycle.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise3/react-unmounting/eslint.config.js
+suggestions for improvement:
+- This ESLint configuration is irrelevant to the exercises described. The exercises require implementing React components with error boundaries, lifecycle methods, and event handlers. This code defines an ESLint configuration for JavaScript and React projects, which is a separate concern.
+- The provided ESLint configuration is well-structured and uses established plugins.  However, it's not applicable to the exercise's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise3/react-unmounting/index.html
+suggestions for improvement:
+- The provided code is only an HTML file for setting up a React application.  It does not contain any of the React components or logic required to address the exercises outlined in the chapter content.  To receive a correctness score, the code must implement the `BuggyCounter`, `ErrorBoundary`, and the lifecycle methods specified in Exercises 1, 2, and 3.
+- Add the React components and logic as per the exercise instructions.  This includes creating the `BuggyCounter`, `ErrorBoundary`, and implementing `componentDidCatch`, `shouldComponentUpdate`, `getSnapshotBeforeUpdate`, `componentDidUpdate`, and `componentWillUnmount` lifecycle methods.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise3/react-unmounting/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which is a dependency management file for npm (Node Package Manager).  It does not contain any React code to implement the exercises described in the chapter content.
+- To assess the exercises, you need to provide the actual React code (App.js, ErrorBoundary.js, and any other relevant files).
+- The `package-lock.json` shows many dependencies, but without the actual code, it's impossible to evaluate correctness, readability, or performance.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise3/react-unmounting/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file.  It doesn't contain any React code to implement the exercises described in the chapter content.  It only sets up the project dependencies and scripts for a React project using Vite.
+- To receive a proper assessment, please provide the actual React component code for `BuggyCounter`, `ErrorBoundary`, and the solution to Exercise 2 and 3.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise3/react-unmounting/src/App.css
+suggestions for improvement:
+- The provided CSS code is unrelated to the exercises described in the chapter content.  The chapter focuses on React lifecycle methods, error boundaries, and event handling. This CSS only styles a webpage and does not implement any of the required React functionality.
+- To receive a correctness score higher than 0, you need to provide React code (JavaScript using JSX) that addresses the exercises outlined in the chapter, including the creation of the `BuggyCounter` and `ErrorBoundary` components, implementing lifecycle methods (`componentDidCatch`, `shouldComponentUpdate`, `componentDidUpdate`, `getSnapshotBeforeUpdate`, `componentWillUnmount`), handling the `onClick` events, and demonstrating the different error boundary scenarios.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise3/react-unmounting/src/App.jsx
+suggestions for improvement:
+- The code could benefit from more descriptive variable names (e.g., instead of `show`, consider `isHeaderVisible`).
+- Adding comments to explain the purpose of the `deleteHeader` function would enhance readability.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise3/react-unmounting/src/index.css
+suggestions for improvement:
+- The provided CSS code is a stylesheet and does not contain any JavaScript code to implement the exercises described in the chapter content.  It only provides styling for HTML elements.
+- To receive a correctness score, provide the React code that addresses the exercises (Error Boundary, Lifecycle methods, and event handlers) as detailed in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise3/react-unmounting/src/main.jsx
+suggestions for improvement:
+- **Exercise 1:** The `ErrorBoundary` component's error handling could be improved by providing more user-friendly error messages instead of just displaying the stack trace. Consider adding a more descriptive message like 'Something went wrong! Please try again later.'  This would improve the user experience.
+- **Exercise 1:**  The instructions for Simulation 3 state that a blank page with errors should appear.  While the error is thrown,  a more robust handling of the uncaught error at the top level, or a better way to catch and display this error in a way that resembles the image is needed.  Currently, React's default error handling takes over, which isn't explicitly controlled by the provided code.
+- **Exercise 2, Part I:** The instructions mention that setting `shouldComponentUpdate` to `false` prevents the color change. While this is true, there's no actual check implemented for this in the code.  Adding a test to verify this behavior would improve the exercise's completeness. 
+- **Exercise 2, Part II & III:** The instructions ask to use `console.log` to check the timing of the lifecycle methods. This is a good practice for debugging but isn't explicitly tested.  Including automated testing, even simple assertions to check if the `console.log` statements have been called would be beneficial.
+- **Exercise 3:** The instructions request an alert message on unmount. While the code triggers the `componentWillUnmount` method, it uses `alert` which isn't ideal for user experience in a React app. Using a state variable to display a message within the component would be preferable and more aligned with best React practices.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/Exercises/Exercise3/react-unmounting/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file. It's not related to the React exercises described in the chapter content.  It does not implement any of the required components (BuggyCounter, ErrorBoundary, or the lifecycle methods).
+- The chapter requires creating React components and implementing error handling and lifecycle methods.  This Vite config is unrelated to that task.
+Correctness: 0%
+-----
