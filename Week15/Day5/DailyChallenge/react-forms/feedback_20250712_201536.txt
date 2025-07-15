@@ -1,0 +1,68 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/DailyChallenge/react-forms/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file. It does not implement the React form described in the challenge.
+- The challenge requires creating a React component that handles form input, updates state based on user interaction, and submits data via the URL. This ESLint config does not address any of those requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/DailyChallenge/react-forms/index.html
+suggestions for improvement:
+- The provided code is only an HTML file and does not contain any React code.  It sets up a basic HTML structure for a React application, but lacks the actual React components (`App.js`, `FormComponent`) and the implementation required to fulfill the challenge instructions.  The challenge requires creating React components that handle form data, update state based on user input, and submit the data via the URL.  This HTML file provides no functionality related to these requirements.
+- Add `App.js` and `FormComponent` components to implement the form handling logic as described in the challenge instructions. This includes creating the `handleChange` function and managing the form's state.  The components should be written in React using JSX, components, and React state.
+- Implement the form submission logic to update the URL parameters with the form data.  This should happen when the form is submitted.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/DailyChallenge/react-forms/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which is a dependency management file for npm (Node Package Manager). It does not contain any React code that addresses the daily challenge's requirements.  To score points, you need to provide the actual `App.js` and `FormComponent` code implementing the form and state management.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/DailyChallenge/react-forms/package.json
+suggestions for improvement:
+- This is a `package.json` file, not React code. It only defines project dependencies and scripts.  It doesn't implement the form handling or state management described in the challenge.
+- The challenge requires creating React components (`App.js` and potentially `FormComponent`), handling form input changes with `handleChange`, updating component state, and submitting data to the URL.  None of this is present in the provided code.
+- Add the actual React code that implements the form, state management, and URL submission as described in the challenge instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/DailyChallenge/react-forms/src/App.css
+suggestions for improvement:
+- The provided CSS code is only styling and does not contain any JavaScript code to implement the React form as described in the challenge.
+- The challenge requires creating a stateful React component, handling form input changes, and submitting data to the URL.  This CSS does none of that.
+- Implement the React component, `handleChange` function, and form submission logic using JSX and React state as instructed.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/DailyChallenge/react-forms/src/App.jsx
+suggestions for improvement:
+- The code could benefit from input validation to prevent unexpected behavior or errors (e.g., ensuring age is a number, checking string lengths).
+- Consider using a more robust method for URL construction instead of `URLSearchParams` if handling more complex query parameters.  While `URLSearchParams` is fine for this case, for very large forms or more complex situations a more advanced approach might be needed.
+- Add error handling.  For example, check if `localhost:3000` is reachable and provide a message if it isn't.
+- Improve CSS styling for better visual presentation and responsiveness across different screen sizes.
+- The use of a ternary operator within the `handleChange` function is concise and efficient.  This adheres to the instructions.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/DailyChallenge/react-forms/src/FormComponent.jsx
+suggestions for improvement:
+- The `handleChange` function and the `App.js` component (where the state and submission logic would reside) are missing.  The provided code only shows the `FormComponent`, which is incomplete without them. 
+- Add input validation to prevent unexpected data (e.g., non-numeric values for age).
+- Consider using a more robust state management solution for larger applications (e.g., Context API or Redux).  For this small example, the current approach is fine.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/DailyChallenge/react-forms/src/index.css
+suggestions for improvement:
+- The provided CSS does not implement any React components or functionality. It only styles a webpage.  The challenge requires creating React components (`App.js` and `FormComponent`), handling form data, and updating the URL upon submission.  This CSS is irrelevant to the core challenge.
+- Add comments explaining the purpose of different CSS rules for better readability.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/DailyChallenge/react-forms/src/main.jsx
+suggestions for improvement:
+- The provided code is only the index.js file, which sets up the React application.  It doesn't contain the crucial `App.js` component where the form handling logic should reside.  The challenge requires building a form handling component and updating the URL on submission, which is entirely absent from this code.
+- Implement the `App.js` component with the `handleChange` function, `FormComponent`, and URL parameter update logic as described in the instructions.
+- Add thorough testing to validate that the form data is correctly captured, handled, and reflected in the URL.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day5/DailyChallenge/react-forms/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file. It does not contain any React components, state management, or form handling logic as required by the challenge.
+- The challenge requires building a React form that updates the URL based on user input.  This Vite config does not address any of that functionality.
+- Implement the `App.js` component, `handleChange` function, and `FormComponent` as described in the challenge instructions to achieve the desired functionality.
+Correctness: 0%
+-----
