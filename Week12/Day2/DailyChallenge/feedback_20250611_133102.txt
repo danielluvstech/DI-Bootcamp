@@ -1,0 +1,29 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week12/Day2/DailyChallenge/index.html
+suggestions for improvement:
+- Implement error handling for API calls.  The code should gracefully handle cases where the API request fails (e.g., network error, API rate limiting, invalid API key). Display user-friendly error messages.
+- Add input validation to ensure the amount entered is a positive number.  Prevent users from entering non-numeric values or negative amounts.
+- Improve the user interface (UI) with styling and better visual feedback.  For instance, use loading indicators during API calls and provide clearer visual cues for successful conversions or errors.
+- The `switch-btn` functionality is missing. Implement the logic to swap the 'from' and 'to' currencies and update the conversion result accordingly.
+- Add a loading indicator while fetching data from the API to improve user experience.
+Correctness: 85%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week12/Day2/DailyChallenge/script.js
+suggestions for improvement:
+- Improve error handling to provide more specific error messages to the user.  For example, instead of "Error loading currency list." consider indicating whether the problem is a network issue, an API key problem, or an issue with the API response.
+- Add input validation to ensure the user enters a valid amount and currency codes.  Currently it only checks if amount is a number and positive, but not whether the entered currency codes are actually supported by the API. Handle cases where the user enters invalid input gracefully.
+- Consider adding loading indicators to improve the user experience while fetching data from the API.  This would make the application feel more responsive.
+- The API key is hardcoded.  For production applications, it's strongly recommended to store API keys securely (e.g., environment variables) and not directly in the code. 
+- While functional, the currency selection could be enhanced with better accessibility.  Consider using a more descriptive label for the select elements to help screen readers.
+- Add unit tests to ensure the code functions correctly and to aid in future development and maintenance.
+Correctness: 95%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week12/Day2/DailyChallenge/style.css
+suggestions for improvement:
+- The code is only providing the front-end structure.  It lacks the crucial functionality to fetch data from the ExchangeRate API, perform the currency conversion, and update the UI with the results.  The `async/await` and `fetch` functionality mentioned in the chapter content are entirely missing.
+- Implement the logic to fetch supported currencies and exchange rates using `fetch` and `async/await`. Handle potential errors during API calls.
+- Add event listeners to the input fields and the 'Convert' button to trigger the currency conversion.
+- Add event listeners to the 'switch' button to swap currencies and recalculate.
+- Populate the select options dynamically with the fetched currency codes.
+- Display the conversion result in the result area.
+Correctness: 0%
+-----
