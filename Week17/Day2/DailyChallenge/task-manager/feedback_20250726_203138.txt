@@ -1,0 +1,89 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/task-manager/eslint.config.js
+suggestions for improvement:
+- The provided code is an ESLint configuration file. It does not implement any of the features required by the chapter content (adding task editing and filtering to a React Task Manager application using useContext, useReducer, and useRef).
+- The ESLint configuration is well-structured and readable, utilizing standard plugins and rules.
+- There are no performance or security concerns related to the ESLint configuration itself.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/task-manager/index.html
+suggestions for improvement:
+- The provided code is only an HTML file for a React application.  It doesn't contain any React code implementing the task manager,  `useContext`, `useReducer`, `useRef`, task editing, or filtering.  The instructions require building a React application with specific features.  This HTML file is only the basic structure of a React app, not a solution to the problem.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/task-manager/package-lock.json
+suggestions for improvement:
+- The submitted code is a `package-lock.json` file, which is a dependency management file for npm. It does not contain any React code that implements the task manager application with the requested features (editing tasks, filtering by completion status, using `useContext`, `useReducer`, and `useRef`).
+- To receive a proper evaluation, please submit the actual React code for the Task Manager application.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/task-manager/package.json
+suggestions for improvement:
+- This JSON file is a `package.json` for a React project. It does not contain any code implementing the Task Manager application features as described in the chapter content.  It only sets up the project's dependencies and scripts.  The actual implementation of task editing, filtering, `useContext`, `useReducer`, and `useRef` is missing.
+- The chapter requires a React application with specific functionalities. This is merely a project setup.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/task-manager/src/App.css
+suggestions for improvement:
+- The provided code is CSS and does not implement any of the requested React functionality using `useContext`, `useReducer`, and `useRef` to manage a task manager application with editing and filtering features.  It's entirely unrelated to the problem statement.
+- The CSS is well-structured and readable, but it's not relevant to the task.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/task-manager/src/App.jsx
+suggestions for improvement:
+- The provided code only renders the UI components (`TaskInput`, `TaskList`, `FilterButtons`).  It lacks the core logic required to fulfill the chapter's requirements: using `useContext`, `useReducer`, and `useRef` to implement task editing and filtering.  The components themselves are not defined, so there's no actual functionality.
+- Implement `useReducer` to manage application state (tasks, filter).
+- Implement `useContext` to make the state accessible to child components.
+- Implement `useRef` within `TaskList` to manage the input field for editing tasks.
+- Add actions to the reducer for `EDIT_TASK` and `FILTER_TASKS`.
+- Add the necessary state variables to track the current filter and the task being edited.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/task-manager/src/components/FilterButtons.jsx
+suggestions for improvement:
+- The code only implements the 'Filter Tasks' functionality.  It's missing the 'Edit Tasks' functionality required by the chapter content.
+- The styling is inline.  It would be better to move this to a CSS file for maintainability and separation of concerns.
+- Error handling (e.g., for unexpected filter values) could be improved.  Adding a default case or input validation would make it more robust.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/task-manager/src/components/TaskInput.jsx
+suggestions for improvement:
+- The provided code only implements adding tasks, not editing or filtering tasks as required by the chapter content.
+- The code lacks the functionality to edit existing tasks.  It needs an 'Edit' mechanism (e.g., button, inline editing) and state management to handle changes before saving.
+- The code lacks filtering capabilities. Buttons and state management to filter tasks by completion status ('all', 'completed', 'active') are missing.
+- The `useReducer` hook is not used in this component, even though it's specified in the chapter content as a requirement for managing task state.
+- The `useRef` is used correctly for managing the input field, but its functionality is limited by the missing edit task feature.
+Correctness: 20%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/task-manager/src/components/TaskList.jsx
+suggestions for improvement:
+- The use of `setTimeout` in `handleEdit` is a workaround.  A more React-idiomatic approach would be to manage the focus using refs more directly or explore other focus management techniques. Consider using a controlled input instead of a default value for better state management.
+- Error handling is missing. The application lacks safeguards against unexpected states or invalid user input. For example, it assumes `editRef.current` will always be available.  Add checks to prevent errors.
+- The filtering logic could be slightly simplified using a switch statement or a map for better readability.
+- Add accessibility attributes (aria-* attributes) to interactive elements (buttons and input fields) to improve accessibility.
+Correctness: 95%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/task-manager/src/context/TaskContext.jsx
+suggestions for improvement:
+- The provided code only implements the reducer and context provider.  It's missing the actual UI components (TaskManager component) that would use `useRef` for editing and display tasks based on the filter.  The `useRef` hook isn't used at all.
+- Add error handling or input validation to prevent issues like empty task additions.
+- Consider using a more sophisticated filtering mechanism if the number of tasks becomes very large. The current `map` approach might become inefficient.
+Correctness: 90%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/task-manager/src/index.css
+suggestions for improvement:
+- The provided code is only CSS styling.  It does not implement any of the required React functionality (useContext, useReducer, useRef) or features (editing tasks, filtering tasks).
+- To achieve a passing score, you need to provide React code that implements task editing and filtering using the specified hooks and reducer actions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/task-manager/src/main.jsx
+suggestions for improvement:
+- The provided code is only the index.js file for setting up the React application. It does not contain the actual implementation of the Task Manager application with features like task editing and filtering as described in the Chapter Content/Questions.  The core logic (App.js, TaskContext.js etc) is missing.
+- Add the actual `App.js`, `TaskContext.js` (or similar context provider) and necessary components to demonstrate task editing and filtering using `useContext`, `useReducer`, and `useRef` as instructed.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/DailyChallenge/task-manager/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file. It does not implement any of the features described in the chapter content (adding task editing, filtering by completion status using useContext, useReducer, and useRef in a React Task Manager application).  It's a completely unrelated piece of code.
+- The chapter requires a React application with specific functionality. This code only sets up a build process.
+Correctness: 0%
+-----
