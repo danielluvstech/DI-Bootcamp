@@ -1,0 +1,78 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/Exercises/Exercise1/jsx-exercise/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file, not a React application. It doesn't address any of the exercises in the chapter content.
+- The ESLint configuration is well-structured and uses standard plugins for React development.
+- Consider adding rules to enforce specific coding styles and best practices, such as consistent indentation, semicolon usage, and maximum line length.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/Exercises/Exercise1/jsx-exercise/index.html
+suggestions for improvement:
+- The provided code is a basic HTML structure for a React application. It doesn't contain any of the JavaScript code (App.js, UserFavoriteAnimals.js, Exercise3.js, etc.) necessary to implement the exercises described in the chapter content.  The exercises require creating components, using JSX, styling with inline styles and external CSS files, and manipulating data.  This HTML file alone does not address any of these requirements.
+- Add the necessary JavaScript files and components to implement the exercises.  Populate `App.js` with the JSX and component logic specified in the instructions. Create `UserFavoriteAnimals.js` and `Exercise3.js` as class components, and implement the functionality described.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/Exercises/Exercise1/jsx-exercise/package-lock.json
+suggestions for improvement:
+- This is a `package.json` file, not a React application code.  It lists the project's dependencies but doesn't contain any code that addresses the exercises in the chapter content. To evaluate correctness, please provide the actual React code (App.js, UserFavoriteAnimals.js, Exercise3.js, etc.) that implements the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/Exercises/Exercise1/jsx-exercise/package.json
+suggestions for improvement:
+- This JSON file is a `package.json` file which defines project dependencies and scripts for a React application. It does not contain any code that addresses the exercises outlined in the Chapter Content/Questions.  To receive a correctness score, you need to provide the actual React component code (App.js, UserFavoriteAnimals.js, Exercise3.js, etc.) that implements the exercises.
+- Add the actual code for the React components to assess correctness.  The provided file only sets up the project structure.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/Exercises/Exercise1/jsx-exercise/src/App.css
+suggestions for improvement:
+- This CSS code is unrelated to the exercises described in the chapter content.  The exercises focus on creating React components, using JSX, styling with inline styles and external CSS files, and working with components and props. This CSS only styles a generic webpage and does not address any of the specific tasks outlined in the exercises.
+- The provided CSS should be removed or replaced with code that directly addresses the exercises (e.g., creating React components, using JSX syntax, applying CSS styles to components).
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/Exercises/Exercise1/jsx-exercise/src/App.jsx
+suggestions for improvement:
+- Add error handling for missing properties in the `user` object in `App.js` to prevent unexpected behavior.
+- Improve the styling of the `Exercise` component in `Exercise3.js` to better match the expected output image by adding more specific styles for the paragraph, link, form, image, and list elements.  Consider adding classes to elements for easier styling with CSS.
+- The `UserFavoriteAnimals` component could benefit from a more descriptive name, such as `FavoriteAnimalList` or similar.
+- In `Exercise3.js`, separate styling concerns using CSS classes in the `Exercise.css` file instead of inline styles whenever possible. This enhances maintainability and readability.
+- Add tests to ensure the components are working correctly and the expected outputs are produced.  Focus on testing edge cases and unexpected inputs, particularly in `UserFavoriteAnimals`.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/Exercises/Exercise1/jsx-exercise/src/UserFavoriteAnimals.jsx
+suggestions for improvement:
+- The code is well-structured and easy to understand.  Consider adding a check to handle the case where `favAnimals` might be null or undefined to prevent potential errors.  A simple conditional render (`{favAnimals && favAnimals.map(...) }`) would suffice.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/Exercises/Exercise1/jsx-exercise/src/exercise.css
+suggestions for improvement:
+- The provided CSS code does not implement any of the exercises described in the chapter content. It defines styles for a container, paragraph, link, form, and image, but these are not directly related to the specific tasks outlined (creating React components, using JSX, handling objects, applying different styling methods).
+- The code should be replaced with React components and JSX to fulfill the exercise requirements.  The CSS should be applied within those components using inline styles, styled-components, or separate CSS files as instructed in the exercises.
+- Add React components and JSX to address the exercises.  Exercise 1 needs JSX implementation. Exercise 2 requires a class component and prop passing. Exercise 3 requires creating a class component and implementing different styling methods (inline styles, CSS files).
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/Exercises/Exercise1/jsx-exercise/src/exercise3.jsx
+suggestions for improvement:
+- The `style_header` object in `Exercise.js` should be updated to match the required styles in the instructions (color: "white", backgroundColor: "DodgerBlue", padding: "10px", fontFamily: "Arial").
+- Add the specified CSS to `Exercise.css` file to style the paragraph.
+- The instructions mention creating `Exercise.css` and applying styles to the paragraph.  The code uses inline styles for the header and a separate `Exercise.css` file with a class name applied to the paragraph.
+- Consider adding error handling for potential issues like the image loading failure.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/Exercises/Exercise1/jsx-exercise/src/index.css
+suggestions for improvement:
+- The provided CSS code does not implement any of the exercises described in the Chapter Content/Questions.  It's a general CSS stylesheet, not a solution to the React exercises.
+- Add React components and JSX to address the exercises, such as creating components for Exercise 1, Exercise 2, Exercise 3, etc.  These components should implement the functionality specified in each exercise's instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/Exercises/Exercise1/jsx-exercise/src/main.jsx
+suggestions for improvement:
+- The provided code is only the basic setup for a React app.  It doesn't contain any of the logic or components described in the exercises.
+- Implement the exercises (Exercise 1, Exercise 2, Exercise 3) within `App.js` and create the necessary `UserFavoriteAnimals.js` and `Exercise3.js` components as instructed.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day2/Exercises/Exercise1/jsx-exercise/vite.config.js
+suggestions for improvement:
+- This code is a Vite configuration file, not a React application.  It doesn't address any of the exercises described in the chapter content.
+- To achieve the chapter's goals, you need to create React components (`App.js`, `UserFavoriteAnimals.js`, `Exercise3.js`), implement JSX, and handle styling with inline styles and CSS files as specified in the exercises.
+- The provided code is a valid Vite configuration, but it's irrelevant to the tasks.
+Correctness: 0%
+-----

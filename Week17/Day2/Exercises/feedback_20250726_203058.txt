@@ -1,0 +1,123 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise1/theme-switcher/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file, not a React application implementing the exercises.  It defines linting rules for JavaScript and React code, but doesn't contain any of the functionality described in Exercises 1, 2, or 3.
+- To receive a correctness score above 0, you need to provide React code that implements the theme switcher, character counter, and todo list as specified in the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise1/theme-switcher/index.html
+suggestions for improvement:
+- The provided HTML file is only a basic HTML structure.  It does not contain any of the React code necessary to implement the exercises described in the Chapter Content/Questions.  The exercises require React components, context, state management, and event handling, none of which are present in this HTML.
+- You need to provide the actual React code (App.js, ThemeContext.js, CharacterCounter.js etc.) to assess the correctness of the exercises implementation.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise1/theme-switcher/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, not a React application. It lists the dependencies for a React project, but doesn't contain the actual code for the exercises.
+- To assess the exercises, please provide the actual React component code for Exercise 1 (Theme Switcher) and Exercise 2 (Character Counter), and optionally Exercise 3 (Todo List).
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise1/theme-switcher/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for a React project. It does not contain any implementation of the theme switcher or character counter exercises described in the Chapter Content/Questions.  It only sets up the project dependencies and scripts.
+- To receive a non-zero correctness score, you need to provide the actual React component code for the theme switcher and character counter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise1/theme-switcher/src/App.css
+suggestions for improvement:
+- The provided code is CSS, not JavaScript.  It does not implement any of the exercises (Theme Switcher, Character Counter, or Todo List) described in the Chapter Content/Questions.
+- The CSS is well-structured and readable, using clear class names and comments would improve it further.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise1/theme-switcher/src/App.jsx
+suggestions for improvement:
+- The `ThemeContext.js` and `ThemeSwitcher.js` files are missing, making it impossible to fully assess the correctness of the theme switching functionality.  The provided `App.js` only shows the usage of the context and assumes the existence of a functioning `ThemeSwitcher` component and context provider.
+- Add error handling in case `useContext` returns null (although the instructions imply a provider will always be present).
+- Consider using CSS modules or styled-components for better CSS management instead of inline styles.  Inline styles can become cumbersome to maintain as the application grows.
+- Add more descriptive comments to explain the purpose of different parts of the code.
+Correctness: 90%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise1/theme-switcher/src/ThemeContext.jsx
+suggestions for improvement:
+- The code could benefit from adding a `useTheme` hook for easier access to the theme context in other components, mirroring the example provided in the instructions. This would improve the user experience and make the code more consistent with the instructions.
+- Consider adding comments explaining the purpose of the `ThemeProvider` and `toggleTheme` function.  While the code is relatively clear, comments would enhance readability, especially for less experienced developers.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise1/theme-switcher/src/ThemeSwitcher.jsx
+suggestions for improvement:
+- The inline styles could be extracted into a separate CSS file for better maintainability and readability.  This would improve organization, especially if the styling becomes more complex.
+- Consider adding accessibility features, such as ARIA attributes, to the button for improved screen reader compatibility. For example, `aria-label` or `aria-labelledby` could be used to provide a more descriptive label for the button's function.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise1/theme-switcher/src/index.css
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise1/theme-switcher/src/main.jsx
+suggestions for improvement:
+- The provided code is an index.js file, which is a standard setup for a React application. It does not contain the actual implementation of the exercises described in the chapter content.  It only sets up the `ThemeProvider` which is a good practice but doesn't demonstrate the functionality of any exercise.
+- Add the actual implementation for the Theme Switcher, Character Counter, and Todo List exercises as separate components (ThemeSwitcher.js, CharacterCounter.js, TodoList.js) and import them into the App.js file.
+- Implement the functionality as described in the exercise instructions within the respective components.  The exercises require the use of `useContext`, `useState`, `useRef`, and `useReducer` which are missing in the provided code.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise1/theme-switcher/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file. It does not implement any of the exercises (Theme Switcher, Character Counter, or Todo List) described in the Chapter Content/Questions.  It's a completely unrelated piece of code.
+- To address the exercises, you need to create React components and use the specified hooks (`useContext`, `useState`, `useRef`, `useReducer`).  This Vite config only sets up a development environment; it doesn't contain any application logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise2/char-counter/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file, not a React application implementing the exercises described in the Chapter Content/Questions.  It defines linting rules for JavaScript and React code, but doesn't contain any of the logic for theme switching, character counting, or todo list management.
+- The ESLint configuration is generally well-written and readable, utilizing standard extensions and configurations.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise2/char-counter/index.html
+suggestions for improvement:
+- The provided code is an HTML file, a basic structure for a React application.  It does not contain any of the React components or logic described in the exercises.  The exercises require the implementation of a Theme Switcher using useContext and useState, a Character Counter using useRef, and a Todo List using useReducer.  This HTML file provides none of that functionality.
+- To receive a non-zero correctness score, you need to provide the actual React component code for each of the three exercises.
+- Add the Javascript files (ThemeContext.js, App.js, CharacterCounter.js, and TodoList.js) with the corresponding React code to solve the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise2/char-counter/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which is a dependency management file for npm (Node Package Manager). It does not contain any React code related to the character counter exercise.  To receive a correctness score, you must submit the actual React component code that implements the character counter using `useRef`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise2/char-counter/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for a React project.  It does not contain any implementation for the character counter exercise.  It only sets up the project dependencies and scripts. To receive a correctness score, you need to provide the actual React component code that implements the character counter functionality as described in the instructions. This should use `useRef` to track the input and update a counter display accordingly.
+- Add the actual React component code that implements the character counter using `useRef`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise2/char-counter/src/App.css
+suggestions for improvement:
+- The provided code is CSS, not JavaScript.  It does not implement any of the exercises (Theme Switcher, Character Counter, or Todo List) described in the Chapter Content/Questions.
+- The CSS is well-structured and readable, using clear selectors and comments would further improve readability.
+- Add a section for each exercise with the corresponding code in JavaScript.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise2/char-counter/src/App.jsx
+suggestions for improvement:
+- The styling could be moved to a separate CSS file for better organization and maintainability.
+- Consider adding error handling for cases where `inputRef.current` might be null (although unlikely in this simple example).
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise2/char-counter/src/index.css
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise2/char-counter/src/main.jsx
+suggestions for improvement:
+- The provided code is a basic React setup. It doesn't implement any of the exercises (Theme Switcher, Character Counter, or Todo List) described in the Chapter Content/Questions.
+- To achieve a non-zero correctness score, you need to implement the exercises as described in the chapter content, including the use of useContext, useState, useRef, and useReducer as instructed.
+- Add the code for ThemeContext.js, App.js (Exercise 1), CharacterCounter.js (Exercise 2), and TodoList.js (Exercise 3) as separate files.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week17/Day2/Exercises/Exercise2/char-counter/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file. It does not implement any of the exercises described in the Chapter Content/Questions.  It sets up a Vite project for React development but doesn't contain any React components or logic related to theme switching, character counting, or todo lists.
+- To address the exercises, you need to create React components and implement the functionality using the specified hooks (`useContext`, `useState`, `useRef`, `useReducer`) as described in the instructions.
+Correctness: 0%
+-----
