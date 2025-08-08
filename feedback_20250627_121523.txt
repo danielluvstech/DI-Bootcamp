@@ -1,0 +1,42 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/data.js
+suggestions for improvement:
+- The code only provides the backend logic for generating a random emoji and options.  It's missing the Express server setup, the API endpoints to handle requests (GET for fetching the emoji set and POST for submitting the answer), and the frontend (using a form and Fetch API) to interact with the API.
+- The error handling in `getRandomEmojiSet` could be improved. Instead of throwing an error when the emoji array is empty, it might be better to return a default emoji or handle the empty state gracefully,  perhaps returning an appropriate error response instead of an exception.
+- The distractor selection logic has a potential flaw. It duplicates the correct emoji as a distractor in edge cases. This should be avoided, possibly by choosing from a larger emoji dataset or handling the empty case differently.
+- Add more robust error handling for cases where the emoji array is unexpectedly empty or contains invalid data.
+- The code lacks features like score tracking, feedback mechanisms, and a leaderboard which are required by the instructions.
+Correctness: 60%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/server.js
+suggestions for improvement:
+- The client-side implementation (using Fetch API and HTML form) is missing. The provided code only covers the server-side Express.js API.
+- Error handling could be improved.  For example,  the `/guess` endpoint doesn't handle cases where `req.body` is malformed or missing expected properties more gracefully.
+- The `getRandomEmojiSet` function from './data' is not provided.  The solution needs this function to be complete.
+- Security: Sanitize user inputs (player name) to prevent XSS vulnerabilities.  Currently, the player name is directly used in the leaderboard without sanitization.
+- Consider using a more robust data storage solution for the leaderboard than an in-memory array.  This data would be lost on server restart.
+Correctness: 90%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/public/index.html
+suggestions for improvement:
+- The HTML provides a basic structure for the game, but it lacks the crucial elements needed to implement the functionality described in the Chapter Content/Questions.  There are no input options for the multiple-choice question, and the game logic (handling user input, checking answers, updating scores, etc.) is entirely missing. The server-side (Express.js) and the interaction between the front-end (HTML, JavaScript) and back-end (Express.js API) are completely absent.
+- The `script.js` file (not provided) would be where the game logic (fetching emojis, handling user input, updating the score, and communicating with a backend) is implemented. Currently, the HTML only provides a basic framework. The missing JavaScript logic to interact with an API makes this code far from a functional solution.
+- The chapter specifically requests the use of an Express.js API to handle the game, and a form to submit user guesses. The code only provides an empty form without any input fields, completely disregarding the requirements of using Fetch API to POST data to the server.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/public/script.js
+suggestions for improvement:
+- Implement server-side Express.js code to handle the API endpoints ('/emoji', '/guess', '/leaderboard'). The provided code only shows client-side logic.
+- Add input validation on the server-side to prevent vulnerabilities like injection attacks.
+- The leaderboard implementation lacks persistence.  Consider using a database (like MongoDB or SQLite) to store scores between sessions.
+- Improve error handling. The code doesn't explicitly handle network errors or server-side errors gracefully.
+- Consider using a more robust method for managing the game state (like storing the game state in the session instead of passing player details with each request).
+- The `handleGuess` function sends unnecessary data ( `answer`, and potentially `player`  in subsequent rounds). Optimize the POST request by sending only the essential data.
+- Add more comprehensive testing to ensure that all features work correctly and to reduce the risk of regressions.
+Correctness: 90%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/public/style.css
+suggestions for improvement:
+- The provided code is only CSS styling for an emoji guessing game.  It does not implement any of the backend logic required (Express server, API endpoints, game logic, etc.) as described in the chapter content.  A complete solution requires JavaScript code to handle the game logic and an Express.js server to handle the API requests.
+- Add JavaScript code to handle the game logic, including fetching data from the server, processing user input, updating the score, and providing feedback.
+Correctness: 0%
+-----

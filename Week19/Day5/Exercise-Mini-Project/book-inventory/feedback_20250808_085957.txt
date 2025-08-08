@@ -1,0 +1,103 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/Exercise-Mini-Project/book-inventory/eslint.config.js
+suggestions for improvement:
+- The provided code is an ESLint configuration file. It does not implement any of the functionality described in the chapter content (creating a Redux store, selectors, React components, etc.).  It's completely unrelated to the exercise.
+- The ESLint configuration itself is reasonably well-structured and readable.  However, its irrelevance to the exercise means it doesn't address the chapter's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/Exercise-Mini-Project/book-inventory/index.html
+suggestions for improvement:
+- The provided code is only an HTML file. It does not contain any Redux, React, or selector logic as required by the exercise.
+- The exercise requires implementing a Redux store, reducers, selectors using `createSelector`, a React component to display book data, and UI interactions to switch between genre filters.  None of this is present.
+- Add the necessary React, Redux, and Redux Toolkit code to fulfill the exercise requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/Exercise-Mini-Project/book-inventory/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which is a dependency management file used by npm (Node Package Manager).  It doesn't contain any code that solves the exercise's requirements.  It only lists the project's dependencies and their versions.
+- To address the exercise, you need to provide React and Redux code that implements the `BookList` component, Redux store, reducers, and selectors as described in the instructions.
+- The `package-lock.json` file itself doesn't have readability or performance aspects to assess in the context of the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/Exercise-Mini-Project/book-inventory/package.json
+suggestions for improvement:
+- This is a `package.json` file. It defines project dependencies and scripts but doesn't contain any code that addresses the exercise requirements.  The exercise requires creating Redux store, reducers, selectors, React components, and UI interactions.  This file only sets up the project environment.
+- Add the actual code for the Redux store, reducers, selectors, and React components to solve the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/Exercise-Mini-Project/book-inventory/src/App.css
+suggestions for improvement:
+- The provided code is CSS, not JavaScript.  It does not implement any of the Redux functionality or React components described in the exercise.
+- The exercise requires the creation of a Redux store, reducers, selectors (using `createSelector`), and React components to manage and display a book inventory. This CSS only styles a webpage.
+- Implement the Redux store, reducers, selectors, and React components as described in the exercise instructions.  Use `@reduxjs/toolkit` and `react-redux`.
+- Add sample book data to your initial Redux state.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/Exercise-Mini-Project/book-inventory/src/App.jsx
+suggestions for improvement:
+- The provided code only renders a `BookList` component.  It lacks the Redux store setup, reducers, selectors (using `createSelector`), and the implementation of genre filtering within the `BookList` component as specified in the exercise.
+- The exercise requires the use of `@reduxjs/toolkit`, which is missing.  The code doesn't demonstrate Redux functionality at all.
+- Add Redux store setup using `configureStore` from `@reduxjs/toolkit`.
+- Implement reducers to manage the book inventory.
+- Create selectors (`selectBooks`, `selectHorrorBooks`, `selectFantasyBooks`, `selectScienceFictionBooks`) using `createSelector` to filter books by genre.
+- Implement genre switching UI in `BookList` to trigger selector usage and update the displayed books.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/Exercise-Mini-Project/book-inventory/src/app/store.js
+suggestions for improvement:
+- The provided code only sets up a Redux store.  It's missing crucial parts of the exercise: the `booksSlice` reducer, selectors using `createSelector`, the `BookList` React component, and the UI interactions to switch between genres.
+- The exercise explicitly requires the use of `createSelector` for optimized filtering.  This is completely absent.
+- A minimal `booksSlice` needs to be implemented to define the reducer and initial state.
+- The `BookList` component needs to be created to display books and handle genre selection.
+- UI interactions, such as buttons or a dropdown, are missing to allow users to choose genres and update the displayed book list.
+Correctness: 20%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/Exercise-Mini-Project/book-inventory/src/components/BookList.jsx
+suggestions for improvement:
+- The selectors (selectHorrorBooks, selectFantasyBooks, selectScienceFictionBooks) are not shown.  The code relies on their existence but doesn't define them.  This needs to be added for completeness.
+- The `selectBooks` selector is also implied but not explicitly defined.  Including this definition would greatly improve the solution.
+- Error handling should be included. What happens if `displayedBooks` is null or undefined? Add a check to prevent errors.
+- Consider using a more efficient way to handle genre selection. The switch statement works, but a mapping from genre to selector could be more maintainable for a larger number of genres.
+Correctness: 90%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/Exercise-Mini-Project/book-inventory/src/features/books/booksSlice.js
+suggestions for improvement:
+- The code only creates a Redux slice with initial book data.  It's missing the crucial parts: selectors using `createSelector` and a React component to display the books and handle genre filtering.
+- Add selectors `selectBooks`, `selectHorrorBooks`, `selectFantasyBooks`, and `selectScienceFictionBooks` using `createSelector` from `@reduxjs/toolkit`.
+- Implement a React component (`BookList`) that uses these selectors to display the filtered book lists based on user interaction (buttons or dropdown).
+- Connect the `BookList` component to the Redux store using `useSelector` and `useDispatch` from `react-redux`.
+- Include UI elements (buttons or dropdown) to allow the user to select a genre and trigger the update of the displayed book list.
+Correctness: 40%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/Exercise-Mini-Project/book-inventory/src/features/books/selectors.js
+suggestions for improvement:
+- The code only provides selectors.  It's missing the Redux store setup, reducers, React component (`BookList`), and UI interactions as specified in the exercise instructions.  A complete solution would integrate these missing parts.
+- Error handling (e.g., what happens if `state.books` or `state.books.books` is undefined or null) should be added to prevent crashes.
+- The selectors could be made more robust by handling edge cases, such as empty book arrays or books without genre information.
+- Consider adding unit tests to verify the correctness of the selectors and the entire application flow.
+- For improved readability, consider using more descriptive variable names (e.g., instead of `books`, maybe `bookList`).
+Correctness: 90%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/Exercise-Mini-Project/book-inventory/src/index.css
+suggestions for improvement:
+- The provided code is CSS styling, not a solution to the Redux exercise.  It does not create a Redux store, selectors, or React components as required.  The exercise demands implementation of Redux Toolkit, `createSelector`, and React-Redux.
+- Implement the Redux store using `configureStore` from `@reduxjs/toolkit`.
+- Create reducers to manage the book inventory.
+- Use `createSelector` to build selectors for filtering books by genre.
+- Develop a React component (`BookList`) to display the books, connecting it to the Redux store using `useSelector` and `useDispatch` from `react-redux`.
+- Include the UI elements (buttons or dropdown) for genre selection.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/Exercise-Mini-Project/book-inventory/src/main.jsx
+suggestions for improvement:
+- The provided code only sets up the React application's entry point and Redux provider.  It doesn't implement any of the functionality described in the exercise, such as creating selectors, reducers, or the `BookList` component.
+- The exercise requires the implementation of Redux selectors using `createSelector` from `@reduxjs/toolkit` to filter books by genre. This is entirely missing.
+- The `app/store` and `App.jsx` files are crucial and missing; without them, the exercise cannot be evaluated.
+- Add the necessary reducers, actions, selectors, and the `BookList` component to fulfill the exercise requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/Exercise-Mini-Project/book-inventory/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file. It does not implement any of the functionality described in the exercise (setting up a Redux store, creating selectors, building React components, etc.).  It's a completely separate task unrelated to the chapter content.
+- The exercise requires building a Redux application with React components and selectors.  This code only sets up a Vite project, which is a build tool, not a solution to the exercise's problem.
+Correctness: 0%
+-----

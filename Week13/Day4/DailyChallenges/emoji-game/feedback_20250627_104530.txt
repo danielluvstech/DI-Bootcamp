@@ -1,0 +1,50 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/data.js
+suggestions for improvement:
+- The code only provides the backend logic for generating a random emoji and options.  It needs to be integrated into an Express server to handle requests and responses, and a frontend (e.g., using HTML and JavaScript's Fetch API) is needed to create the user interface for the game.
+- The code lacks features for scorekeeping, feedback on guesses, and a leaderboard as specified in the requirements.
+- Error handling (e.g., what happens if `emojis` is empty?) could be improved.
+Correctness: 70%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which is a dependency management file for npm (Node Package Manager). It does not contain any code that implements the emoji guessing game as specified in the chapter content.  To receive a correctness score, you need to provide the actual server-side code (using Express.js) and client-side code (using Fetch API) that implements the game logic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/package.json
+suggestions for improvement:
+- This is a `package.json` file, not an implementation of the emoji guessing game.  It only sets up the project dependencies using Express.js.  The core functionality of the game (creating the emoji array, handling user input, checking answers, managing scores, etc.) is completely missing.
+- Implement the actual game logic using Express.js routes and handlers to respond to client requests (using Fetch API as specified).
+- Create the HTML form for the game on the client-side.
+- Add code to handle scorekeeping and potentially a leaderboard (if desired).
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/public/index.html
+suggestions for improvement:
+- The provided HTML file only sets up the basic structure of the game.  It lacks the crucial JavaScript logic (in `script.js`) and styling (in `style.css`) needed to implement the emoji guessing game as described in the chapter content.  The server-side (Express API) component is completely missing.
+- The chapter explicitly requires using Express.js to build an API. This HTML file alone doesn't use Express or Node.js at all.
+- Implement the game logic using JavaScript's `fetch` API to send POST requests to the Express server for score updates.
+- Add the Express.js server code to handle POST requests from the client, manage the emoji database, and update scores.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/public/script.js
+suggestions for improvement:
+- Implement server-side Express.js code to handle the `/emoji`, `/guess`, and `/leaderboard` routes.  The provided client-side code assumes these endpoints exist but doesn't define them.
+- The leaderboard persistence is not specified.  Consider using a database or local storage to persist scores beyond a single session.
+- Add input sanitization to prevent injection attacks.  The server-side code (which is missing) should validate and sanitize user inputs before using them.
+- Improve error handling. The code lacks error handling for network requests or server-side errors. Add `try...catch` blocks to gracefully handle potential failures.
+- Consider using a more robust method for selecting distractor options to ensure the game remains challenging.  Randomly selecting from the full list of emojis might include the correct answer as a distractor sometimes.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/public/style.css
+suggestions for improvement:
+- The provided code is only CSS styling.  It does not implement any of the Express API, Node.js modules, or game logic required by the challenge.  It needs to include server-side code (using Express.js and Node.js) and client-side JavaScript to handle the game functionality (fetching data, sending guesses, updating scores).
+- Add server-side code (using Express) to handle requests from the client.
+- Implement the emoji guessing game logic on the server-side, including random emoji selection, answer checking, score keeping, and leaderboard functionality.
+- Add client-side JavaScript to fetch data from the server, display the emoji and options, handle user input, and display feedback.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/DailyChallenges/emoji-game/server.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----

@@ -1,0 +1,260 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise1/car-components-app/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file, not a React application.  It does not address any of the exercises involving JSX, components, React lifecycle, or event handlers.
+- The ESLint configuration is generally well-structured and uses standard plugins.
+- Add comments explaining the purpose of each rule and extension.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise1/car-components-app/index.html
+suggestions for improvement:
+- The provided HTML file is a basic Vite + React setup. It does not contain any of the React components or logic described in the exercises.  The exercises require creating several components (`Car`, `Garage`, `Events`, `Phone`, `Color`), implementing event handlers, using state management (useState hook), and utilizing the component lifecycle (useEffect hook).  The provided HTML file only sets up the environment, but does not implement any of the described functionality.
+- Add the necessary React components and logic based on the exercises' instructions.  This includes creating the components, implementing state management, and handling events as described in each exercise part.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise1/car-components-app/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which is not related to the exercises. It lists project dependencies for a React application, which might be used to create a React app to solve the exercises, but doesn't solve any exercises itself.
+- Provide the actual React component code to assess correctness.  The instructions mention creating components like `Car.js`, `Garage.js`, and `Events`.  These files are missing.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise1/car-components-app/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file for a React project. It does not contain any implementation of the exercises described in the Chapter Content/Questions.  It only sets up the project dependencies and scripts.
+- To achieve a non-zero correctness score, you need to provide the actual React component code (App.js, Car.js, Garage.js, Events.js, Phone.js, Color.js) that implement the exercises.
+- Add the necessary code for each exercise to demonstrate the use of JSX, components, React lifecycle (specifically `useEffect` in Exercise 4), and event handlers.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise1/car-components-app/src/App.css
+suggestions for improvement:
+- The provided CSS is completely unrelated to the exercises described in the Chapter Content/Questions.  It defines styling for a logo and a card, which are not part of the React app exercises.
+- The exercises require implementing JSX, components (functional and potentially class components depending on the chosen approach for each exercise), React lifecycle methods (or hooks for functional components), and event handlers.  This CSS does not address any of these requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise1/car-components-app/src/App.jsx
+suggestions for improvement:
+- The provided code only completes Part I of Exercise 1.  Parts II and III are missing.
+- Exercise 2 (Events), Exercise 3 (Phone), and Exercise 4 (useEffect) are entirely absent.
+- The `Car` component should be a functional component using `useState` as specified in the instructions.
+- Add PropTypes for better type checking and error handling for carInfo in the Car component.
+Correctness: 60%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise1/car-components-app/src/Components/Car.jsx
+suggestions for improvement:
+- Add prop-types for carInfo to ensure type safety and clarity.
+- The optional color change button from Part II of the exercise is commented out.  Uncommenting it would improve completeness.
+- Consider adding styling to improve the visual presentation of the components.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise1/car-components-app/src/Components/Garage.jsx
+suggestions for improvement:
+- The code is very concise and well-structured.  Consider adding prop-types for enhanced type safety and clarity.  This would help prevent runtime errors from incorrect prop values.
+- While functional components are preferred in React these days, the instructions were originally somewhat ambiguous about whether a class or functional component should be used;  the provided code accurately fulfills the functional component request.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise1/car-components-app/src/index.css
+suggestions for improvement:
+- The provided code is CSS, not JavaScript.  It does not address any of the exercises described in the Chapter Content/Questions, which focus on React concepts like JSX, components, lifecycle methods, and event handlers.  To receive a correctness score higher than 0, you need to provide JavaScript code that implements the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise1/car-components-app/src/main.jsx
+suggestions for improvement:
+- The provided code is a standard React app setup.  It doesn't contain any of the exercises described in the chapter content.  The exercises require creating various components (`PrintHello`, `Car`, `Garage`, `Events`, `Phone`, `Color`), implementing event handlers, using state (and the useState hook), and utilizing the component lifecycle (or useEffect hook). None of this is present in the given code snippet.
+- Add the components and functionality detailed in Exercises 1-4 to solve the problem.  The current code only sets up a React project; it doesn't address the specific exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise1/car-components-app/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file. It's not a React application and doesn't address any of the exercises.
+- You need to create a React app and implement the exercises (Car and components, Events, Phone and components, useEffect hook) as described in the provided instructions.  This Vite config is only used for building the React app, not for the actual application logic itself.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise2/my-react-events/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file. It does not implement any of the exercises described in the chapter content.  The chapter focuses on React components, JSX, lifecycle methods, and event handlers. This code defines ESLint rules and configurations for JavaScript and React projects, but doesn't create any React components or handle events.
+- Consider adding code that addresses the specific exercises (Car, Garage, Events, Phone, Color components) mentioned in the document.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise2/my-react-events/index.html
+suggestions for improvement:
+- The provided HTML file is a basic Vite + React setup. It doesn't contain any code related to the exercises described in the Chapter Content/Questions.  It only sets up the basic structure for a React application.  The exercises require the implementation of JSX, components, React lifecycle methods (or Hooks as substitutes), and event handlers. None of these are present.
+- Add the actual React components and logic as per the exercises' instructions. Create `App.js`, `Components` folder, `Car.js`, `Garage.js`, and `Events.js` files (and possibly `Phone.js` and `Color.js`) and implement the functionality described in each part of the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise2/my-react-events/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which is a dependency management file for npm (Node Package Manager). It doesn't contain any React code or implementation of the exercises described in the Chapter Content/Questions.  To score points, you need to provide the actual React code that implements the exercises.  This lockfile only shows the dependencies used by a React project.
+- Create the actual React components (`Car.js`, `Garage.js`, `Events.js`, `Phone.js`, `Color.js`)  and implement the logic as described in the exercises.  Then, structure them correctly within a React project so they can run and be assessed.
+- Ensure to use functional components and the `useState` hook as specified for Exercise 1, Exercise 2, and Exercise 3, and the `useEffect` hook for exercise 4.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise2/my-react-events/package.json
+suggestions for improvement:
+- This JSON file is a `package.json` file for a React project.  It does not contain any code that addresses the exercises described in the provided text.  To receive a correctness score, you must provide React code implementing the exercises (Car, Garage, Events, Phone, Color components).
+- The `package.json` file itself is well-structured and includes necessary dependencies for a React project using Vite.
+- Add the actual React component code within the project to address the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise2/my-react-events/src/App.css
+suggestions for improvement:
+- The provided CSS code is irrelevant to the exercises described in the Chapter Content/Questions.  It's styling for a React app, but doesn't implement any of the specified functional components or event handlers.
+- The exercises require creating functional components (`Car`, `Garage`, `Events`, `Phone`, `Color`), using JSX, implementing event handlers (`onClick`, `onKeyDown`), and utilizing React state and lifecycle methods (or hooks in this case).  None of this is present in the submitted code.
+- Add React code (JSX and Javascript) to implement the exercises as outlined in the instructions. The provided code only addresses styling.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise2/my-react-events/src/App.jsx
+suggestions for improvement:
+- The provided code only creates an App component that renders an Events component.  It does not address any of the other exercises (Car, Phone, Color) outlined in the Chapter Content/Questions.
+- The Events component (which is not provided) needs to be implemented to complete Exercise 2.  The current code lacks the implementation details for handling events, using useState, etc.
+- Add the missing components (Car, Phone, Color) to fully address all exercises in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise2/my-react-events/src/Events.jsx
+suggestions for improvement:
+- Add comments explaining the purpose of each function and state variable.
+- Consider using a more descriptive name for the `handleKeyDown` function, such as `handleInputEnter`.
+- While not strictly required, adding styling could improve the visual appeal of the component.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise2/my-react-events/src/index.css
+suggestions for improvement:
+- The provided code is a CSS stylesheet, not a React application. It doesn't address any of the exercises (JSX, components, React lifecycle, event handlers) outlined in the Chapter Content/Questions.
+- To receive a non-zero correctness score, you need to provide React code that implements the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise2/my-react-events/src/main.jsx
+suggestions for improvement:
+- The provided code is only the basic React application setup. It doesn't contain any of the exercises' code (JSX, components, lifecycle methods, event handlers).
+- Add the components and functionality described in exercises 1-4 to assess correctness.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise2/my-react-events/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file. It's not a React application and doesn't address any of the exercises outlined in the Chapter Content/Questions.  It sets up a development environment but doesn't contain any React components, JSX, event handlers, or lifecycle methods.
+- To achieve a non-zero correctness score, you need to provide React code that addresses the exercises described (Car components, Events component, Phone component, Color component).
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise3/my-react-phone/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file. It's not a React application implementing the exercises described in the chapter content.  It defines rules and configurations for linting JavaScript and JSX files, ensuring code quality and consistency but doesn't directly address any of the exercises (JSX, Components, React Lifecycle, Event Handlers).
+- The ESLint configuration is generally well-structured and readable, using standard conventions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise3/my-react-phone/index.html
+suggestions for improvement:
+- The provided HTML file is a basic HTML structure for a React application. It does not contain any code related to the exercises described in the Chapter Content/Questions.  The exercises require the creation of several React components (`Car`, `Garage`, `Events`, `Phone`, `Color`),  the use of JSX, React lifecycle methods (or useEffect hook as a replacement), and event handlers.  None of this is present.
+- To address the exercises, you need to create the specified components in separate .js or .jsx files (like Car.js, Garage.js, etc.), implement the logic for each exercise within those components, and then import and render these components in your main App.js file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise3/my-react-phone/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which is a dependency management file for npm (Node Package Manager). It does not contain any React code that addresses the exercises outlined in the chapter content.  To receive a correctness score, you need to provide the actual React code for the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise3/my-react-phone/package.json
+suggestions for improvement:
+- This is a `package.json` file, not React code.  It only sets up a development environment using Vite and React. It doesn't contain any implementation of the exercises.
+- The exercises require creating React components, handling events, and using state (or the `useState` hook).  None of this is present in the provided code snippet.
+- To receive a correctness score higher than 0, please provide the React code that implements the exercises described in the document.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise3/my-react-phone/src/App.css
+suggestions for improvement:
+- The provided CSS is unrelated to the exercises described in the Chapter Content/Questions.  It styles a logo and a card, but the exercises involve creating React components, handling events, and using state.
+- The exercises require creating React components (`Car`, `Garage`, `Events`, `Phone`, `Color`), implementing event handling (`onClick`, `onKeyDown`), and using state management (`useState` or equivalent). None of this is present in the provided code.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise3/my-react-phone/src/App.jsx
+suggestions for improvement:
+- The `App.js` file only imports and renders the `Phone` component.  It needs to include the implementation for exercises 1, 2, and 4 to achieve a complete solution.
+- Exercise 1 (Car and Components): Implement the `Car` and `Garage` components as functional components using the `useState` hook as instructed.
+- Exercise 2 (Events):  Implement the `Events` component, using functional components and the `useState` and `useEffect` hooks, to handle the button click, key press, and toggle functionality.
+- Exercise 4 (useEffect hook): Implement the `Color` component using the `useEffect` hook to change the color after a delay and on button click.  The current code lacks this component entirely.
+- Add error handling and input validation where necessary (especially for user input).
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise3/my-react-phone/src/Phone.jsx
+suggestions for improvement:
+- The exercise description asks to create a class component for Exercise 3.  This solution uses a functional component with hooks. While functionally equivalent and often preferred, it doesn't directly follow the instructions.
+- Add more robust error handling. While unlikely in this specific example, it's good practice to anticipate issues like failed API calls or unexpected data types in a larger application.
+Correctness: 90%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise3/my-react-phone/src/index.css
+suggestions for improvement:
+- The provided code is CSS, not JavaScript.  It does not address any of the exercises described in the Chapter Content/Questions, which focus on React concepts like JSX, components, lifecycle methods, and event handlers.
+- To receive a correctness score above 0, you need to provide React code that implements the exercises (Exercise 1: Car and components, Exercise 2: Events, Exercise 3: Phone and components, and Exercise 4: useEffect hook).
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise3/my-react-phone/src/main.jsx
+suggestions for improvement:
+- The provided code is only a basic React app setup. It doesn't contain any of the exercises described in the Chapter Content/Questions.  It needs to implement the exercises (Car and components, Events, Phone and components, useEffect hook) to achieve a higher correctness score.
+- Add the exercises as functional components as requested in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise3/my-react-phone/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file for a React project. It does not contain any implementation of the exercises described in the Chapter Content/Questions.  It only sets up the build process.
+- The exercises require creating React components, handling events, and utilizing state management (useState and useEffect).  This Vite config doesn't address any of those aspects.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise4/my-react-hook/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file. It does not implement any of the React exercises described in the chapter content.  It sets up linting rules for JavaScript and JSX files, which is a good practice for a React project but not a solution to the exercises.
+- The chapter requires the implementation of React components, handling events, using JSX, and exploring the React lifecycle (or useEffect hook as a modern alternative). This code does none of that.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise4/my-react-hook/index.html
+suggestions for improvement:
+- The provided HTML file is a basic React application setup. It doesn't contain any code related to the exercises (JSX, components, React lifecycle, event handlers) described in the Chapter Content/Questions.  The exercises require implementation within the `App.js`, `Car.js`, `Garage.js`, and `Events.js` components and should use functional components and the useState hook, not class components.
+- Add the necessary JavaScript files (`App.js`, `Car.js`, `Garage.js`, `Events.js`, etc.) to implement the exercises.
+- Implement the exercises as described in the instructions.  This includes using functional components and the useState and useEffect hooks.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise4/my-react-hook/package-lock.json
+suggestions for improvement:
+- This JSON represents a `package-lock.json` file, which is a dependency management file for a Node.js project.  It does not contain any React code to solve the exercises. You need to provide the actual React component code to assess the correctness.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise4/my-react-hook/package.json
+suggestions for improvement:
+- This is a `package.json` file, not React code.  It only sets up the project environment.  There is no code that addresses the exercises described in the Chapter Content/Questions.
+- To assess correctness, you need to provide the actual React component code (App.js, Car.js, Garage.js, Events.js, Phone.js, Color.js) that implements the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise4/my-react-hook/src/App.css
+suggestions for improvement:
+- The provided CSS code is unrelated to the React exercises described in the Chapter Content/Questions.  It's a styling for a webpage, likely including a logo and cards, but it doesn't implement any of the required React components (Car, Garage, Events, Phone, Color), JSX, React lifecycle methods, or event handlers.
+- To receive a higher correctness score, you need to provide React code that fulfills the exercises outlined in the document, including creating components, handling events, and utilizing the React lifecycle (or useEffect hook in the case of functional components).
+- The CSS is well-written and readable, but entirely irrelevant to the assessment criteria.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise4/my-react-hook/src/App.jsx
+suggestions for improvement:
+- The `Color` component should include the functionality to change the color on button click as described in Exercise 4.  The current implementation only shows the initial color and alerts 'useEffect reached'.
+- Add a timeout in `useEffect` to change the color to yellow after 5 seconds as specified in Exercise 4. The current implementation only alerts on mount.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise4/my-react-hook/src/Color.jsx
+suggestions for improvement:
+- The `useEffect` hook is missing a dependency array.  Currently, it runs after every render, which is not optimal and likely not the intended behavior.  Adding an empty array `[]` as the second argument will make it run only once after the initial render, matching the description of the exercise better.
+- The exercise mentions a timeout to change the color after 5 seconds. This is missing from the implementation.
+- The instruction to add a timeout for yellow is not present.  Currently, the color changes directly to blue on button click.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise4/my-react-hook/src/index.css
+suggestions for improvement:
+- The provided code is CSS, not JavaScript.  It does not address any of the exercises described in the chapter content.
+- The exercises require creating React components, handling events, and using state. This CSS only styles elements; it doesn't create any React functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise4/my-react-hook/src/main.jsx
+suggestions for improvement:
+- The provided code is only the basic React app setup.  It doesn't contain any of the exercises described in the chapter content.  All the exercises require creating components, handling events, and using state (useState hook).  This code only sets up the environment to run a React app, therefore, it doesn't address any of the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week15/Day4/Exercise/Exercise4/my-react-hook/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file for a React project. It does not contain any implementation of the exercises described in the chapter content.
+- The exercises require creating React components, handling events, and using state management (useState and useEffect).  This Vite config does none of that.
+- To address the exercises, you need to add React component files (App.js, Car.js, Garage.js, Events.js, Phone.js, Color.js) and implement the logic as described in the exercise instructions.
+Correctness: 0%
+-----
