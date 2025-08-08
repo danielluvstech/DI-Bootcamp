@@ -1,0 +1,25 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/Exercises/blog-api/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which is a dependency management file for npm. It does not contain any code that implements the exercises described in the chapter content.  To receive a correctness score, you need to provide the actual `server.js` or `app.js` files with the implementation of the API endpoints.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/Exercises/blog-api/package.json
+suggestions for improvement:
+- The provided code is only a `package.json` file.  It defines project metadata and dependencies but contains no actual code to implement the API described in Exercise 1 or the subsequent exercises.  It needs `server.js` (or equivalent) files with the API implementation.
+- Implement the CRUD operations (GET, POST, PUT, DELETE) for blog posts as specified in Exercise 1.
+- Implement Exercise 2: a CRUD API for books.
+- Implement Exercise 3: a CRUD API fetching data from JSONPlaceholder using Axios and a separate data module.
+Correctness: 20%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week13/Day4/Exercises/blog-api/server.js
+suggestions for improvement:
+- Implement proper input validation for POST and PUT requests to prevent injection attacks.
+- Use a more robust database solution instead of an in-memory array for production environments.  The current 'database' (posts array) will be lost on server restart.
+- Add more comprehensive error handling. For example, handle potential errors during the parsing of the request body.
+- Consider using a more descriptive error message when a post is not found (e.g., include the requested ID).
+- The `parseInt` is good for preventing type issues, but  a more robust solution might involve dedicated validation libraries to ensure data integrity and security.
+- Improve readability by adding comments to explain complex logic, particularly within the route handlers.
+- The performance will degrade as the number of posts increases. Consider using a database and optimizing queries.
+- Add logging for debugging and monitoring purposes.
+Correctness: 95%
+-----
