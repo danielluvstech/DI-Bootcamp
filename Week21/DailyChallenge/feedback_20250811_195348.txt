@@ -1,0 +1,839 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/.bin/tsc.cmd
+suggestions for improvement:
+- This batch script is completely unrelated to the TypeScript exercise described in the chapter content. It appears to be a script for compiling TypeScript code using the TypeScript compiler (tsc), but it doesn't implement the `validateUnionType` function as requested.
+- The script needs to be rewritten to create and use the `validateUnionType` function that checks if a value's type matches any type within an array of allowed types.
+- Add clear comments explaining the purpose of each section of the code.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/.bin/tsserver.cmd
+suggestions for improvement:
+- The provided code is a batch script for launching a TypeScript server. It does not implement the `validateUnionType` function as described in the chapter content.
+- The script is poorly structured and difficult to understand without prior knowledge of its purpose.
+- The script should be rewritten in TypeScript to align with the chapter's focus on TypeScript programming.
+- Add clear comments to explain the purpose of each section of the batch script.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/.package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file. It does not contain any TypeScript code that implements the `validateUnionType` function described in the chapter content.
+- A TypeScript file (.ts) implementing the `validateUnionType` function is needed to assess correctness.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/_tsc.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/_tsserver.js
+suggestions for improvement:
+- The provided code is a TypeScript server implementation. It does not contain a `validateUnionType` function as described in the chapter content.
+- The codebase is very large and complex, making it difficult to review thoroughly.  Refactoring into smaller, more focused modules would greatly improve readability.
+- Error handling could be improved.  More specific error messages and types would be beneficial.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/_typingsInstaller.js
+suggestions for improvement:
+- The provided code is a TypeScript implementation of a Node.js typings installer. It does not implement the `validateUnionType` function as described in the challenge.
+- The code is well-structured and uses classes and methods effectively to manage functionality like logging, NPM interaction, and type registry handling.
+- Error handling within the `execSyncAndLog` method is good, catching and logging potential issues from external commands.
+- Consider adding comments to explain the purpose of the different sections of code for better readability.
+- The code handles asynchronous operations and utilizes process communication efficiently, leading to good performance, provided that external NPM processes behave as expected.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/cs/diagnosticMessages.generated.json
+suggestions for improvement:
+- The provided code is a JSON object containing TypeScript error messages, not a TypeScript function.  It does not address the exercise requirements.
+- A TypeScript function `validateUnionType` needs to be implemented to solve the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/de/diagnosticMessages.generated.json
+suggestions for improvement:
+- The provided code is a large JSON object containing TypeScript error messages, not a TypeScript function.
+- The code does not implement the `validateUnionType` function as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/es/diagnosticMessages.generated.json
+suggestions for improvement:
+- The provided code is a JSON object containing TypeScript error messages, not a TypeScript function.  It does not address the chapter's exercise.
+- The chapter requires a function `validateUnionType` that checks if a value's type is within a list of allowed types. This JSON is completely unrelated.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/fr/diagnosticMessages.generated.json
+suggestions for improvement:
+- The provided code is a large JSON object containing TypeScript error messages, not a TypeScript function.
+- The code does not address the exercise requirements to create a `validateUnionType` function.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/it/diagnosticMessages.generated.json
+suggestions for improvement:
+- The provided code is a JSON object containing TypeScript error messages, not a TypeScript function.  It does not address the exercise at all.
+- A TypeScript function `validateUnionType` needs to be implemented to solve the exercise.
+- The function should iterate through the `allowedTypes` array and compare the type of the input `value` using the `typeof` operator.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/ja/diagnosticMessages.generated.json
+suggestions for improvement:
+- The provided code is a JSON object containing TypeScript compiler error messages. It does not implement the `validateUnionType` function as requested in the chapter content.
+- The code is completely irrelevant to the exercise.  The exercise requires a TypeScript function, not a JSON of error messages.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/ko/diagnosticMessages.generated.json
+suggestions for improvement:
+- The provided code is a dictionary of TypeScript compiler error messages, not a TypeScript function that fulfills the exercise requirements.
+- The exercise requires creating a function `validateUnionType` that checks if a value matches any type in a given array of allowed types.  This code does not implement such a function.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript header and lacks the implementation of the `validateUnionType` function.  It needs to be implemented to address the chapter's requirements.
+- Add the function `validateUnionType(value: any, allowedTypes: string[]): boolean` that checks the type of `value` against the `allowedTypes` array using `typeof` and returns `true` if a match is found, `false` otherwise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.decorators.d.ts
+suggestions for improvement:
+- The provided code defines various TypeScript interfaces related to decorators, not a `validateUnionType` function as required by the chapter content.
+- The code is irrelevant to the exercise; it describes decorator contexts in TypeScript, which is a completely different topic.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.decorators.legacy.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file defining decorator types. It does not contain any implementation of the `validateUnionType` function described in the chapter content.
+- Add a function that takes a value and an array of allowed types (as strings). It should use `typeof` to check the type of the value against the allowed types and return `true` if a match is found, otherwise `false`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.dom.asynciterable.d.ts
+suggestions for improvement:
+- The provided code defines interfaces for asynchronous iterators related to the file system and readable streams.  It does not implement the `validateUnionType` function as requested in the chapter content.
+- The code should be replaced with a function that meets the specifications in the exercise:  a function named `validateUnionType` that takes a value and an array of allowed types (as strings) and returns `true` if the value's type is in the allowedTypes array, and `false` otherwise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.dom.d.ts
+suggestions for improvement:
+- The provided code defines a vast number of interfaces related to the browser APIs, but it does not contain a `validateUnionType` function as specified in the chapter content.
+- The code is well-structured and uses clear naming conventions for interfaces.  However, it's irrelevant to the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.dom.iterable.d.ts
+suggestions for improvement:
+- The provided code defines numerous interfaces related to the Web APIs, particularly focusing on the use of `Iterable` in various methods.  It does not implement the `validateUnionType` function as requested in the chapter content.
+- The code is well-structured and uses clear naming conventions for interfaces and methods. The comments are helpful and link to relevant MDN documentation.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2015.collection.d.ts
+suggestions for improvement:
+- The provided code defines TypeScript interfaces for `Map`, `WeakMap`, `Set`, and `WeakSet`.  It does not implement the `validateUnionType` function as requested in the chapter content.
+- Add the `validateUnionType` function to address the exercise's core requirement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2015.core.d.ts
+suggestions for improvement:
+- The provided code is a type definition file (.d.ts), not an implementation of the `validateUnionType` function.  It defines interfaces and types for various built-in JavaScript objects, but it does not contain any code that solves the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2015.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript header and lacks the implementation of the `validateUnionType` function.  It needs to be added to fulfill the exercise requirements.
+- Add error handling or more informative return values (e.g., throw an error if allowedTypes is empty).
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2015.generator.d.ts
+suggestions for improvement:
+- The provided code defines interfaces for Generator and GeneratorFunction, which are not relevant to the chapter's task of creating a `validateUnionType` function.
+- The code does not contain any implementation of the `validateUnionType` function described in the chapter content.
+- Add a function `validateUnionType(value: any, allowedTypes: string[]): boolean` that checks the type of the input value against the provided allowed types and returns true or false accordingly.
+- Use the `typeof` operator to compare types.  Iterate through the `allowedTypes` array to check if the input's type matches any of the allowed types.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2015.iterable.d.ts
+suggestions for improvement:
+- The provided code is a complete definition of the TypeScript lib.d.ts file or a significant portion of it. It does not implement the `validateUnionType` function as requested in the chapter content.
+- The code should be replaced with a function that takes a value and an array of allowed types and returns true if the value's type is in the array, otherwise false.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2015.promise.d.ts
+suggestions for improvement:
+- The provided code is a type definition for the Promise constructor in TypeScript.  It does not implement the `validateUnionType` function as requested in the chapter content.
+- Implement the `validateUnionType` function according to the exercise description.  This function should take a value and an array of allowed types (as strings) and return `true` if the value's type is among the allowed types, otherwise `false`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2015.proxy.d.ts
+suggestions for improvement:
+- The provided code defines interfaces for a ProxyHandler and ProxyConstructor in TypeScript.  It's a complete and correct definition of these interfaces, but it's entirely unrelated to the chapter's exercise which is about creating a type validation function using union types.
+- The code should be replaced with a TypeScript function that implements the `validateUnionType` function as described in the chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2015.reflect.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file for the `Reflect` API. It does not implement the `validateUnionType` function described in the chapter content.
+- The code should be replaced with a TypeScript function that takes a value and an array of allowed types and returns a boolean indicating whether the value's type is among the allowed types.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2015.symbol.d.ts
+suggestions for improvement:
+- The provided code is a type definition for the `Symbol` constructor in TypeScript. It does not implement the `validateUnionType` function described in the chapter content.
+- Implement the `validateUnionType` function as described to address the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+suggestions for improvement:
+- The provided code is a definition of TypeScript's built-in `Symbol` interface and related types. It does not implement the `validateUnionType` function as requested in the chapter content.
+- The code needs to be replaced with a function that takes a value and an array of allowed types (as strings), checks the type of the value against the allowed types, and returns a boolean value indicating whether the value's type is among the allowed types.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2016.array.include.d.ts
+suggestions for improvement:
+- The provided code does not implement the `validateUnionType` function as described in the chapter content. It defines type extensions for the `Array` and TypedArray interfaces to include the `includes` method, which is already present in modern JavaScript. This code is completely unrelated to the exercise's requirements.
+- Remove the unnecessary type definitions; they don't address the challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2016.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript type declaration file and does not contain any implementation of the `validateUnionType` function.  It only includes references to other TypeScript libraries.  Therefore, it does not address the chapter's exercise.
+- The code needs to implement the `validateUnionType` function which takes a value and an array of allowed types (as strings) and returns `true` if the value's type is among the allowed types, and `false` otherwise.  It should use `typeof` for type checking.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2016.full.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript header with license information and type references. It does not contain the `validateUnionType` function as required by the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2016.intl.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration for the `Intl.getCanonicalLocales` function. It does not implement the `validateUnionType` function as described in the chapter content.
+- The code needs to be replaced with a function that takes a value and an array of allowed types (as strings) and returns a boolean indicating whether the value's type is among the allowed types.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts
+suggestions for improvement:
+- The provided code is an interface definition for `ArrayBufferConstructor` and doesn't implement the `validateUnionType` function as described in the chapter content.  It's completely unrelated to the exercise.
+- Add a function called `validateUnionType` that takes a value and an array of allowed types (as strings) and returns `true` if the value's type is in the allowedTypes array, otherwise `false`.
+- Use the `typeof` operator to check the type of the value.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2017.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file and does not contain any implementation of the `validateUnionType` function.  It only includes references to various ES libraries.
+- Implement the `validateUnionType` function as described in the chapter content to achieve a non-zero correctness score.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2017.date.d.ts
+suggestions for improvement:
+- The provided code is an interface declaration for the `DateConstructor` extending its functionality to include a `UTC` method. This is completely unrelated to the exercise's requirement to create a `validateUnionType` function that checks if a value's type is among allowed types.
+- The code should be replaced with a function that implements the `validateUnionType` function as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2017.full.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript header and does not contain an implementation of the `validateUnionType` function.  It needs to be implemented to solve the problem.
+- Add a function that checks the type of the input value against the `allowedTypes` array using `typeof` operator.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2017.intl.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file extending the `Intl.DateTimeFormat` interface. It does not implement the `validateUnionType` function described in the chapter content.
+- The code does not solve the exercise's problem; it's irrelevant to the chapter's objective.
+- A new function `validateUnionType` needs to be implemented according to the chapter's instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2017.object.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript type declaration for the `Object` constructor, extending its functionality. It does not implement the `validateUnionType` function as requested in the chapter content.
+- Implement the `validateUnionType` function according to the exercise description.  It should accept a value and an array of allowed types (as strings), check the type of the value against the allowed types using `typeof`, and return `true` if the type matches, otherwise `false`.
+- Add example usage to demonstrate how to use the `validateUnionType` function with different variable types.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+suggestions for improvement:
+- The provided code defines interfaces and declares variables related to SharedArrayBuffer and Atomics, which are not relevant to the exercise description.  It does not contain a `validateUnionType` function as requested.
+- The code should implement the `validateUnionType` function which takes a value and an array of allowed types (as strings) and returns a boolean indicating whether the value's type is in the allowed types array.
+- Use the `typeof` operator to check the type of the input value.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2017.string.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration that extends the String prototype with `padStart` and `padEnd` methods.  It does not implement the `validateUnionType` function as requested in the chapter content.
+- Implement the `validateUnionType` function according to the exercise description.  The function should accept a value and an array of allowed types (as strings), check the type of the value using `typeof`, and return `true` if the type is in the `allowedTypes` array, otherwise `false`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+suggestions for improvement:
+- The provided code is irrelevant to the chapter's exercise. It defines interfaces for various TypedArray constructors but doesn't implement the `validateUnionType` function.
+- Implement the `validateUnionType` function as described in the chapter content.  The function should take a value and an array of allowed types (as strings) and return a boolean indicating whether the value's type is in the allowed types.
+- Use the `typeof` operator to check the type of the value.
+- Include example usage to demonstrate the function's functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+suggestions for improvement:
+- The provided code defines interfaces for AsyncGenerator and AsyncGeneratorFunction, which are unrelated to the chapter's task of creating a `validateUnionType` function.
+- Implement the `validateUnionType` function as described in the chapter content.  The function should accept a value and an array of allowed types (as strings) and return `true` if the type of the value is in the allowedTypes array, otherwise `false`.
+- Use `typeof` operator for type checking.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+suggestions for improvement:
+- The provided code defines interfaces for AsyncIterators and AsyncIterables in TypeScript.  It does not implement the `validateUnionType` function as requested in the chapter content.
+- Add a function that takes a value and an array of allowed types (as strings) and returns true if the value's type is in the array and false otherwise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2018.d.ts
+suggestions for improvement:
+- The provided code is a license header and type declaration references.  It does not contain any implementation of the `validateUnionType` function described in the chapter content.
+- Add the implementation of the `validateUnionType` function.  The function should iterate through the `allowedTypes` array and use the `typeof` operator to check if the input `value` matches any of the allowed types.  Return `true` if a match is found, otherwise return `false`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2018.full.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript header and lacks the implementation of the `validateUnionType` function as described in the chapter content.
+- Add the function `validateUnionType(value: any, allowedTypes: string[]): boolean` that checks the type of the input `value` against the `allowedTypes` array using the `typeof` operator and returns `true` if the type matches, otherwise `false`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2018.intl.d.ts
+suggestions for improvement:
+- The provided code defines interfaces and types for the `Intl.PluralRules` and `Intl.NumberFormat` objects, which are part of the JavaScript Intl API.  It does not implement the `validateUnionType` function as requested in the chapter content.
+- Add a function `validateUnionType(value: any, allowedTypes: string[]): boolean` that checks the type of the input value against the provided array of allowed types.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2018.promise.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript definition for the Promise interface. It does not implement the `validateUnionType` function as described in the chapter content.
+- Implement the `validateUnionType` function according to the exercise description.  This function should accept a value and an array of allowed types (as strings) and return `true` if the value's type is in the allowedTypes array, otherwise `false`.
+- Use the `typeof` operator to check the type of the value.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2018.regexp.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file augmenting the `RegExp` interface and related types. It does not implement the `validateUnionType` function as described in the chapter content.
+- Implement the `validateUnionType` function according to the exercise's specifications.  This function should take a value and an array of allowed types (as strings) and return `true` if the value's type is among the allowed types, otherwise `false`.
+- Use the `typeof` operator to check the type of the input value.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2019.array.d.ts
+suggestions for improvement:
+- The provided code is irrelevant to the chapter's task. It defines type extensions for `ReadonlyArray` and `Array` to add `flatMap` and `flat` methods.  It does not implement the `validateUnionType` function as requested.
+- The code should be replaced with a function that takes a value and an array of allowed types (as strings) and returns true if the value's type is in the allowedTypes array, false otherwise.
+- Use `typeof` operator for type checking.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2019.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file and does not contain any implementation of the `validateUnionType` function.  It only includes references to various TypeScript libraries.  A function needs to be written to fulfill the exercise's requirements.
+- Add the implementation of the `validateUnionType` function as described in the chapter content.  This function should check the type of the input value against the provided allowed types and return a boolean accordingly.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2019.full.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript header with license information and references to various libraries. It does not contain the `validateUnionType` function described in the chapter content.
+- Implement the `validateUnionType` function as described in the chapter: it should take a value and an array of allowed types (as strings) and return `true` if the value's type is in the allowed types array, `false` otherwise.  Use `typeof` for type checking.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2019.intl.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file and does not implement the `validateUnionType` function described in the chapter content.  It's unrelated to the exercise.
+- The code needs to be replaced with a function that takes a value and an array of allowed types (as strings) and returns a boolean indicating whether the value's type is in the allowed types array.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2019.object.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript type definition for `Object.fromEntries`,  it does not implement the `validateUnionType` function described in the chapter.
+- Implement the `validateUnionType` function as described in the chapter content.  It should take a value and an array of allowed types (as strings) and return true if the value's type is among the allowed types, otherwise return false.  Use `typeof` for type checking.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2019.string.d.ts
+suggestions for improvement:
+- The provided code is an interface extension for the String type in TypeScript, adding trimStart, trimEnd, trimLeft, and trimRight methods.  It does not implement the `validateUnionType` function as requested in the chapter content.
+- Implement the `validateUnionType` function according to the chapter's specifications.  This function should accept a value and an array of allowed types (as strings) and return true if the value's type is among the allowed types, otherwise false.  Use the `typeof` operator for type checking.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2019.symbol.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration merging the `Symbol` interface. It does not implement the `validateUnionType` function as described in the chapter content.
+- Add a function that takes a value and an array of allowed types (as strings).
+- The function should use `typeof` to check if the value's type matches any of the allowed types.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2020.bigint.d.ts
+suggestions for improvement:
+- The provided code defines types and interfaces related to BigInt and typed arrays, but it does not contain a `validateUnionType` function as specified in the chapter content.
+- The code should be replaced with a TypeScript function that takes a value and an array of allowed types and returns `true` if the value's type is in the array, and `false` otherwise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2020.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript reference file and does not contain any implementation of the `validateUnionType` function described in the chapter content.  It needs to be replaced with actual code that addresses the exercise.
+- Add a function that takes a value and an array of allowed types (as strings).
+- The function should use `typeof` to check the type of the value against each allowed type in the array.
+- The function should return `true` if a match is found, `false` otherwise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2020.date.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file extending the `Date` interface. It does not implement the `validateUnionType` function as described in the chapter content.
+- A new file should be created containing the implementation of the `validateUnionType` function, which should use the `typeof` operator to check against the provided allowed types.
+- The function should iterate through the `allowedTypes` array and check if `typeof value` matches any of the allowed types.  It should return `true` if a match is found, otherwise `false`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2020.full.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript header and does not contain a `validateUnionType` function as specified in the chapter content.  It needs to implement the function described in the exercise to achieve a higher correctness score.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2020.intl.d.ts
+suggestions for improvement:
+- The provided code is a complete definition of the `Intl` namespace in TypeScript, which is unrelated to the exercise of creating a `validateUnionType` function.  It defines types and interfaces for internationalization APIs.  You need to provide a function that performs type validation using union types.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2020.number.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript type declaration augmentation for the `Number` interface. It does not implement the `validateUnionType` function described in the chapter content.
+- Implement the `validateUnionType` function as described in the chapter to address the core requirement of the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2020.promise.d.ts
+suggestions for improvement:
+- The provided code defines TypeScript interfaces and type aliases related to Promise handling, specifically `Promise.allSettled`.  It does not implement the `validateUnionType` function as requested in the chapter content.
+- The code is well-structured and readable, using clear naming conventions and comments.
+- Add the `validateUnionType` function as described in the chapter to solve the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts
+suggestions for improvement:
+- The provided code defines an interface for Atomics operations on BigInt64Array and BigUint64Array.  This is completely unrelated to the exercise described in the chapter content, which requires a function to validate a value's type against a list of allowed types.
+- The code should be replaced with a TypeScript function that implements the `validateUnionType` function as specified in the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2020.string.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file augmenting the String interface. It does not implement the `validateUnionType` function as required by the chapter content.
+- Add a function that takes a value and an array of allowed types as strings, then checks if the value's type is one of the allowed types, returning true or false accordingly.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration merging for the `Symbol` and `RegExp` interfaces.  It does not implement the `validateUnionType` function described in the chapter content.
+- Implement the `validateUnionType` function as described in the chapter's requirements.  This function should take a value and an array of allowed types and return true if the value's type is in the allowedTypes array, false otherwise.
+- Use the `typeof` operator to check the type of the value.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2021.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript type definition file and doesn't contain any implementation of the `validateUnionType` function.  It needs to include the actual function to solve the exercise.
+- The code should include example usage of the `validateUnionType` function to demonstrate its functionality as requested in the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2021.full.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript header with license information and type declarations, but it does not contain the implementation of the `validateUnionType` function as described in the chapter content.
+- Implement the `validateUnionType` function according to the exercise specifications. This function should accept a value and an array of allowed types and return `true` if the type of the value matches any of the allowed types, and `false` otherwise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2021.intl.d.ts
+suggestions for improvement:
+- The provided code defines TypeScript type declarations for the `Intl.ListFormat` object, but it does not implement the `validateUnionType` function as requested in the chapter content.  The code is completely unrelated to the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2021.promise.d.ts
+suggestions for improvement:
+- The provided code defines interfaces for `AggregateError` and `PromiseConstructor`, extending their functionality.  This is completely unrelated to the chapter's exercise, which requires a `validateUnionType` function.
+- The code does not contain the `validateUnionType` function described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2021.string.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript type declaration for the `replaceAll` method on the `String` object. It does not implement the `validateUnionType` function described in the chapter content.
+- Implement the `validateUnionType` function as described in the exercise to address the chapter's requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2021.weakref.d.ts
+suggestions for improvement:
+- The provided code defines interfaces for `WeakRef` and `FinalizationRegistry`, which are related to garbage collection in JavaScript but are not relevant to the chapter's task of creating a `validateUnionType` function.
+- Implement the `validateUnionType` function as described in the chapter content.
+- Add example usage to demonstrate the function's capabilities with various data types.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2022.array.d.ts
+suggestions for improvement:
+- The provided code defines extensions to the Array and TypedArray interfaces, adding an `at` method. This is not related to the chapter's challenge, which requires creating a `validateUnionType` function.
+- The code does not include a `validateUnionType` function as specified in the exercise.  The challenge specifically asks for a function that validates a value against a list of allowed types.
+- Implement the `validateUnionType` function according to the exercise description.  This function should take a value and an array of allowed types (as strings) and return `true` if the value's type is among the allowed types and `false` otherwise.
+- Use `typeof` to check the type of the input value.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2022.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript header and does not contain any implementation of the `validateUnionType` function.  It needs to include the function's implementation to solve the exercise.
+- Add a function that correctly checks the type of the input value against the allowed types using `typeof`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2022.error.d.ts
+suggestions for improvement:
+- The provided code defines interfaces for different JavaScript Error types.  It does not implement the `validateUnionType` function as requested in the chapter content.
+- Add a function `validateUnionType(value: any, allowedTypes: string[]): boolean` that checks the type of the input value against the provided array of allowed types using `typeof`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2022.full.d.ts
+suggestions for improvement:
+- The use of `any` for the `value` parameter is generally discouraged.  While it works for this specific problem, it's better to use a more specific type if possible, or to utilize type inference.
+- Add a comment explaining the purpose of the `typeof` operator check within the loop.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2022.intl.d.ts
+suggestions for improvement:
+- The provided code defines the `Intl.Segmenter` interface and related types for text segmentation.  It does not implement the `validateUnionType` function as requested in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2022.object.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript type declaration that extends the `ObjectConstructor` interface to add a `hasOwn` method.  It does not implement the `validateUnionType` function as required by the chapter content.
+- Implement the `validateUnionType` function as described in the chapter.  This function should take a value and an array of allowed types (as strings) and return `true` if the value's type is in the allowed types array, and `false` otherwise. Use the `typeof` operator for type checking.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2022.regexp.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file defining extensions to the `RegExp` interface. It does not implement the `validateUnionType` function as requested in the chapter content.
+- Implement the `validateUnionType` function as described in the chapter.  This function should take a value and an array of allowed types (as strings) and return `true` if the value's type is among the allowed types, otherwise `false`.
+- Use the `typeof` operator to check the type of the input value.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2022.string.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript type declaration for the `String.prototype.at` method and does not implement the `validateUnionType` function as described in the chapter content.
+- Implement the `validateUnionType` function that takes a value and an array of allowed types (as strings) and returns `true` if the value's type is among the allowed types, otherwise `false`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2023.array.d.ts
+suggestions for improvement:
+- The provided code does not address the Daily Challenge. It defines extensions to the Array and TypedArray interfaces in TypeScript, adding methods like `findLast`, `findLastIndex`, `toReversed`, `toSorted`, and `toSpliced`.  These are helpful additions but are unrelated to the challenge of creating a `validateUnionType` function.
+- Create a new function `validateUnionType` that takes a value and an array of allowed types (as strings) and returns true if the value's type is in the allowed types, otherwise false. Use typeof operator for type checking and loops to iterate through the allowed types array.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2023.collection.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file and doesn't implement the `validateUnionType` function described in the chapter content.  It defines an interface `WeakKeyTypes`, which is unrelated to the exercise.
+- Implement the `validateUnionType` function as described in the chapter. This function should take a value and an array of allowed types (as strings) and return `true` if the value's type is in the allowed types array, otherwise `false`. Use the `typeof` operator for type checking.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2023.d.ts
+suggestions for improvement:
+- The provided code is a license header and TypeScript type definitions; it does not contain the implementation of the `validateUnionType` function as requested in the chapter content.  A function needs to be implemented to fulfill the exercise requirements.
+- Add the `validateUnionType` function which takes a value and an array of allowed types and returns `true` if the value's type is in the array and `false` otherwise.  Use `typeof` for type checking.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2023.full.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript header and does not contain any implementation of the `validateUnionType` function.  It only includes licensing information and type references.
+- Implement the `validateUnionType` function as described in the exercise to achieve a higher correctness score.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2023.intl.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file extending the `Intl.NumberFormat` interface. It does not implement the `validateUnionType` function described in the chapter content.  It's completely unrelated to the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2024.arraybuffer.d.ts
+suggestions for improvement:
+- The provided code defines an interface for `ArrayBuffer` and its constructor, but it does not implement the `validateUnionType` function as described in the chapter content.
+- The code is completely unrelated to the exercise's requirements.  It appears to be a TypeScript definition for the `ArrayBuffer` object, which is not what the problem asked for.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2024.collection.d.ts
+suggestions for improvement:
+- The provided code defines a `groupBy` method for the `Map` object. This is not related to the chapter's task, which requires a `validateUnionType` function that checks if a value's type is among a list of allowed types.
+- Implement the `validateUnionType` function as described in the chapter content.  This function should use the `typeof` operator and loop through the allowed types to check for a match.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2024.d.ts
+suggestions for improvement:
+- The provided code is a license header and TypeScript configuration, not a solution to the exercise.  It does not implement the `validateUnionType` function.
+- Implement the `validateUnionType` function as described in the chapter content.  The function should take a value and an array of allowed types (as strings) and return `true` if the value's type is in the allowed types array, and `false` otherwise.
+- Use the `typeof` operator to check the type of the input value.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2024.full.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript header file and does not contain any implementation for the `validateUnionType` function described in the chapter content.  It only includes reference comments and licensing information.
+- Implement the `validateUnionType` function as described in the problem statement.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2024.object.d.ts
+suggestions for improvement:
+- The provided code defines a `groupBy` function for the `ObjectConstructor` interface. This is completely unrelated to the chapter's requirement of creating a `validateUnionType` function that checks if a value's type is within a list of allowed types.
+- The code needs to be replaced with a function that implements the `validateUnionType` function as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2024.promise.d.ts
+suggestions for improvement:
+- The provided code defines a `Promise.withResolvers` utility function.  This is not related to the chapter's task of creating a `validateUnionType` function that checks if a value's type is within a list of allowed types.
+- Implement the `validateUnionType` function as described in the chapter content.  This function should accept a value and an array of allowed types (as strings) and return `true` if the value's type is among the allowed types, `false` otherwise.
+- Use the `typeof` operator to check the type of the input value.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2024.regexp.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript type definition for the RegExp interface. It does not implement the `validateUnionType` function described in the chapter content.
+- The code snippet needs to be replaced with a function that takes a value and an array of allowed types (as strings) and returns `true` if the value's type is among the allowed types; otherwise, it should return `false`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2024.sharedmemory.d.ts
+suggestions for improvement:
+- The provided code defines interfaces for `Atomics` and `SharedArrayBuffer`, which are related to WebAssembly and shared memory.  It does not implement the `validateUnionType` function as specified in the chapter content.
+- Add the `validateUnionType` function that takes a value and an array of allowed types (as strings) and returns true if the type of the value is in the array of allowed types, otherwise returns false.  Use `typeof` operator for type checking.
+- Include example usage to demonstrate the function's functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es2024.string.d.ts
+suggestions for improvement:
+- The provided code is an interface extension for the String object, adding methods `isWellFormed()` and `toWellFormed()`.  It does not implement the `validateUnionType` function as described in the chapter content.
+- Implement the `validateUnionType` function according to the exercise description.  This function should accept a value and an array of allowed types (as strings) and return `true` if the value's type is in the allowed types array, and `false` otherwise.
+- Use the `typeof` operator to check the type of the input value.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es5.d.ts
+suggestions for improvement:
+- The provided code is a complete definition of the TypeScript standard library.  It does not contain a `validateUnionType` function as requested in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.es6.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript library header and does not contain any implementation of the `validateUnionType` function.  It needs the actual function definition to be evaluated.
+- Add the `validateUnionType` function as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.esnext.array.d.ts
+suggestions for improvement:
+- The provided code is an extension of the Array prototype to add `fromAsync` functionality.  It does not implement the `validateUnionType` function described in the chapter content.
+- Implement the `validateUnionType` function as described in the exercise.  This function should accept a value and an array of allowed types (as strings) and return `true` if the value's type is in the allowed types array, otherwise `false`.
+- Use the `typeof` operator to check the type of the value.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.esnext.collection.d.ts
+suggestions for improvement:
+- The provided code defines interfaces for Set operations but doesn't implement the `validateUnionType` function as requested in the chapter content.
+- The code is unrelated to the chapter's objective of creating a type validator using union types.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.esnext.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript reference file and does not contain any implementation of the `validateUnionType` function.  It needs to be implemented to solve the exercise.
+- Add the `validateUnionType` function as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.esnext.decorators.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file (`.d.ts`) that defines metadata functionality for decorators. It does not implement the `validateUnionType` function as requested in the chapter content.
+- Add a function `validateUnionType(value: any, allowedTypes: string[]): boolean` that checks if the type of `value` is included in `allowedTypes` using `typeof`.
+- Use a loop to iterate through `allowedTypes` for comparison.
+- Return `true` if a match is found; otherwise, return `false`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.esnext.disposable.d.ts
+suggestions for improvement:
+- The provided code defines interfaces and types related to resource management using `DisposableStack` and `AsyncDisposableStack`, but it does not implement the `validateUnionType` function as requested in the chapter content.
+- The code is irrelevant to the exercise.  It should be removed or a solution for the exercise should be added.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.esnext.error.d.ts
+suggestions for improvement:
+- The provided code is an interface definition for ErrorConstructor, adding an isError method.  It does not implement the `validateUnionType` function described in the chapter content.
+- The code needs to be replaced with a function that takes a value and an array of allowed types (as strings), and checks if the type of the value is in the array of allowed types.  It should then return true or false accordingly.
+- The `typeof` operator should be used for type checking.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.esnext.float16.d.ts
+suggestions for improvement:
+- The provided code defines a `Float16Array` interface and related types, which is entirely unrelated to the daily challenge's requirement of creating a `validateUnionType` function.
+- The code does not implement the `validateUnionType` function as specified in the challenge description.
+- Remove the irrelevant `Float16Array` definitions and focus solely on implementing the required function.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.esnext.full.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript header and does not contain an implementation of the `validateUnionType` function.  It needs to include the function definition and logic to check the type of the input value against the allowed types.
+- Add the function body to actually implement the type checking logic as described in the chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.esnext.intl.d.ts
+suggestions for improvement:
+- The provided code is a license header and a declaration for the `Intl` namespace. It does not contain any implementation of the `validateUnionType` function as requested in the chapter content.
+- Add the implementation of the `validateUnionType` function.  This function should take a value and an array of allowed types (as strings) and return `true` if the value's type is in the allowedTypes array, otherwise return `false`.  Use the `typeof` operator for type checking.
+- Consider adding error handling for cases where `allowedTypes` is null or undefined.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.esnext.iterator.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript definition file for iterators. It does not contain a `validateUnionType` function as requested in the chapter content.
+- The code defines an abstract class `Iterator` and interfaces related to iterators, such as `IteratorObject` and `IteratorConstructor`.  These are entirely unrelated to the chapter's challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.esnext.promise.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration for a `Promise.try` method.  It does not implement the `validateUnionType` function described in the chapter content.
+- The code is irrelevant to the exercise.  It defines a type extension for the Promise constructor, which is a different topic altogether.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.esnext.sharedmemory.d.ts
+suggestions for improvement:
+- The provided code defines an interface `Atomics` with a `pause` method.  This is completely unrelated to the chapter's task of creating a `validateUnionType` function that checks if a value's type is within an array of allowed types.
+- Implement the `validateUnionType` function as described in the chapter content.  This function should use the `typeof` operator and loop through the `allowedTypes` array to check the type of the input `value`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.scripthost.d.ts
+suggestions for improvement:
+- The provided code defines interfaces and types related to Windows Script Host (WSH) and COM objects.  It does not implement the `validateUnionType` function as requested in the chapter content.
+- The code is irrelevant to the exercise's requirements.  It should be replaced with a TypeScript function that performs the union type validation.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.webworker.asynciterable.d.ts
+suggestions for improvement:
+- The provided code defines interfaces for Async Iterators related to the FileSystemDirectoryHandle and ReadableStream.  It does not implement the `validateUnionType` function as requested in the chapter content.
+- The code is irrelevant to the chapter's objective of creating a union type validator function.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.webworker.d.ts
+suggestions for improvement:
+- The provided code defines a vast number of TypeScript interfaces related to web APIs but does not include the `validateUnionType` function as required by the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file and doesn't contain any implementation for the `validateUnionType` function described in the chapter content.  It defines APIs for Web Workers, which is completely unrelated to the exercise.
+- Implement the `validateUnionType` function according to the exercise description.  This function should take a value and an array of allowed types as input and return `true` if the value's type is among the allowed types, otherwise `false`.
+- Use TypeScript's `typeof` operator to check the type of the input value.
+- Utilize a loop to iterate through the `allowedTypes` array for efficient comparison.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/lib.webworker.iterable.d.ts
+suggestions for improvement:
+- The provided code defines various interfaces related to Web APIs (like WebGL, Cache, etc.), but it does not implement the `validateUnionType` function as requested in the chapter content.  The task requires a TypeScript function that validates a value against a list of allowed types.
+- The code is well-structured and uses clear naming conventions, but it's completely irrelevant to the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/pl/diagnosticMessages.generated.json
+suggestions for improvement:
+- The provided code is a JSON object containing TypeScript error messages, not a TypeScript function.  It does not address the exercise.
+- A `validateUnionType` function needs to be implemented in TypeScript to solve the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/pt-br/diagnosticMessages.generated.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/ru/diagnosticMessages.generated.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/tr/diagnosticMessages.generated.json
+suggestions for improvement:
+- The provided code is a dictionary of error messages from a TypeScript compiler, not a TypeScript function that solves the problem described in the chapter.
+- The exercise requires creating a `validateUnionType` function that checks if a value's type is among a list of allowed types.  This code does not contain any such function.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/tsc.js
+suggestions for improvement:
+- The provided code is a shim for enabling the compile cache in Node.js and is completely unrelated to the chapter's task of creating a TypeScript function to validate union types.
+- The code does not implement the `validateUnionType` function as described in the chapter.
+- A completely new implementation is needed to address the chapter's exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/tsserver.js
+suggestions for improvement:
+- The provided code is a TypeScript server shim and does not implement the `validateUnionType` function as described in the chapter content.
+- It's irrelevant to the exercise's requirements.  The exercise asks for a function that validates types based on a provided array of allowed types. This code does nothing of the sort.
+- Implement the `validateUnionType` function as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/tsserverlibrary.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript definition file (`.d.ts`) for a library, not a solution to the exercise. It doesn't contain any implementation for `validateUnionType`.
+- The chapter explicitly asks for a function `validateUnionType` that checks if a value's type matches any type in a provided array of string types.  This code does not address that.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/tsserverlibrary.js
+suggestions for improvement:
+- The provided code is not a TypeScript function that addresses the chapter's exercise. It appears to be a module export for a TypeScript server library, entirely unrelated to the task of creating a `validateUnionType` function.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/typesMap.json
+suggestions for improvement:
+- The provided code is a mapping of library names to their corresponding types or aliases. It does not implement the `validateUnionType` function as described in the chapter content.  The chapter specifically asks for a function that checks if a value's type matches any in a provided array of allowed types.
+- The `typesMap` and `simpleMap` are well-structured and easy to understand, though irrelevant to the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/typescript.d.ts
+suggestions for improvement:
+- The provided code is the TypeScript compiler's source code. It does not contain a `validateUnionType` function as specified in the exercise.
+- The code needs to be replaced with a function that meets the requirements of the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/typescript.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/typingsInstaller.js
+suggestions for improvement:
+- The provided code is not a solution to the 'validateUnionType' function described in the chapter content. It appears to be a shim for a TypeScript type installer.
+- The code does not perform any type validation or use union types as instructed.
+- A completely new implementation of the `validateUnionType` function is needed.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/watchGuard.js
+suggestions for improvement:
+- The provided code is a file watcher, not a union type validator. It doesn't address the exercise described in the chapter content.
+- The code uses `fs.watch`, which is efficient for file system monitoring but irrelevant to the chapter's task.
+- Implement the `validateUnionType` function as described in the chapter content, using `typeof` operator and loop for type checking.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/zh-cn/diagnosticMessages.generated.json
+suggestions for improvement:
+- The provided code is a JSON object containing TypeScript error messages, not a TypeScript function.  It does not address the exercise.
+- To solve the exercise, you need to write a TypeScript function that takes a value and an array of allowed types and returns true if the value's type is in the array, otherwise false.
+- Use `typeof` operator for type checking within the function.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/lib/zh-tw/diagnosticMessages.generated.json
+suggestions for improvement:
+- The provided code is a JSON object containing TypeScript error messages, not a TypeScript function that solves the problem described in the chapter content.
+- The code needs to be replaced with a TypeScript function that implements the `validateUnionType` function as described in the exercise.
+- The function should use `typeof` operator for type checking and iterate through the `allowedTypes` array.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/node_modules/typescript/package.json
+suggestions for improvement:
+- The provided code is the `package.json` file for the TypeScript project itself, not a solution to the coding challenge.  It describes the project's dependencies, scripts, and metadata, but doesn't contain any code that implements the `validateUnionType` function.
+- Create a separate `.ts` file containing the `validateUnionType` function as described in the challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/package-lock.json
+suggestions for improvement:
+- The provided code is a `package.json` file, not a TypeScript function.  It describes project dependencies, not the solution to the daily challenge.
+- Implement the `validateUnionType` function as described in the chapter content.
+- Add test cases to demonstrate the functionality with various input types.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/package.json
+suggestions for improvement:
+- This is a `package.json` file, not a TypeScript function.  It provides no implementation for the `validateUnionType` function described in the chapter.
+- Implement the `validateUnionType` function in a `.ts` file and include its code for review.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/tsconfig.json
+suggestions for improvement:
+- The provided code is a tsconfig.json file.  It's a configuration file for the TypeScript compiler, not a solution to the coding challenge.  It does not define a `validateUnionType` function.
+- A TypeScript file (.ts) containing the `validateUnionType` function implementation is needed to address the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/validateUnionType.js
+suggestions for improvement:
+- The function uses `typeof` which has limitations.  For example, `typeof null` returns 'object', which might not be the intended behavior. Consider using a more robust type checking method, perhaps using `Object.prototype.toString.call(value)` for more precise type identification.  This would address the cases where `null` and arrays are incorrectly classified.
+- Add TypeScript type annotations for better type safety and readability.  The current JavaScript code lacks type annotations, making it harder to maintain and understand.
+Correctness: 90%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/DailyChallenge/validateUnionType.ts
+suggestions for improvement:
+- The function correctly uses `typeof` to check the type of the input value and the `includes` method to verify if it's present in the array of allowed types. However, it considers `null` and arrays as 'objects', which might not accurately reflect the intent if strict type checking is required.  Consider adding a more robust type checking mechanism or explicitly adding 'object' and 'null'  to the allowedTypes array if those are truly valid inputs.
+- Add more comprehensive test cases to cover edge cases like `undefined`, `NaN`, `Symbol`, etc. and different array types.
+Correctness: 90%
+-----
