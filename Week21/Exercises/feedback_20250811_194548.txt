@@ -1,0 +1,114 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/control-flow.js
+suggestions for improvement:
+- The function should be explicitly typed to align with the TypeScript focus of the chapter. Add type annotations for the input `num` and the return type.
+- The comments could be more descriptive.  Instead of just 'Test the function...', describe the purpose of each test case.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/control-flow.ts
+suggestions for improvement:
+- The function name could be more descriptive, such as `describeNumber`.  While `checkNumber` is understandable, a more explicit name improves readability.
+- Adding comments to explain the purpose of the function and the meaning of the return values would enhance readability.  For example, a comment above the function explaining its purpose and a comment above each `return` statement indicating what condition caused that return.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/function-overloading.js
+suggestions for improvement:
+- The `greet` function uses implicit typing.  Explicitly adding type annotations would improve readability and maintainability, aligning better with the chapter's focus on type annotations.
+- The exercise mentions 'Function Overloading with Default Parameters'. The current solution uses a single function with a conditional.  True function overloading would involve defining multiple functions with the same name but different parameter lists.  This would demonstrate a more advanced concept mentioned in the chapter.
+- Add comments explaining the purpose of the function and its parameters, further enhancing readability.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/function-overloading.ts
+suggestions for improvement:
+- The code is excellent and directly addresses Exercise 9: Function Overloading with Default Parameters.  Consider adding comments to the function overload signatures explaining the purpose of each overload.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/hello-world.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/hello-world.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/index.html
+suggestions for improvement:
+- The provided HTML file only sets up the environment.  The actual TypeScript code (type-assertions.js) is missing, preventing a complete assessment of Exercises 1-9.  The HTML is well-structured and simple.
+- Add the TypeScript code (type-assertions.js) for a complete evaluation.  This would allow for a thorough check against the specified exercises (type annotations, union types, control flow, tuples, objects, type assertions, switch statements, function overloading).
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/object-type-annotations.js
+suggestions for improvement:
+- The code could use type annotations for better readability and maintainability.  Adding `: string` to `name` and `: number` to `age` in the `createPerson` function signature and return type would improve this.
+- Consider using shorthand property names in the object literal: `{ name, age }` instead of `{ name: name, age: age }`.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/object-type-annotations.ts
+suggestions for improvement:
+- The code could be slightly improved by using shorthand property names in the `createPerson` function: `return { name, age };` This is a minor stylistic improvement that enhances readability.
+- Adding more comprehensive error handling (e.g., checking for invalid input types) would make the function more robust, although the exercise doesn't explicitly demand it.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/switch-complex.js
+suggestions for improvement:
+- Add type annotations to the `role` parameter and the return type of the `getAction` function for better type safety and readability.  This aligns with the chapter's focus on type annotations.
+- Consider using a more descriptive variable name than `role` if a more specific term applies within the application context.  This improves readability.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/switch-complex.ts
+suggestions for improvement:
+- Add comments explaining the purpose of the function and the meaning of each case in the switch statement.  This enhances readability.
+- Consider using a more descriptive variable name than 'role', perhaps 'userRole' or 'userPrivilege'.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/tsconfig.json
+suggestions for improvement:
+- This code is a tsconfig.json file, which is a TypeScript configuration file. It does not contain any code that addresses the exercises described in the Chapter Content/Questions.  It only configures the TypeScript compiler.
+- To receive a non-zero correctness score, you need to provide TypeScript code that solves the exercises (Hello World, type annotations, union types, control flow, tuples, objects, type assertions, switch statements, and function overloading).
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/tuple-types.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/tuple-types.ts
+suggestions for improvement:
+- The code is already quite readable.  Consider adding a few more comments explaining the purpose of the `getDetails` function for extra clarity.
+- The function's name `getDetails` could be slightly more descriptive, perhaps `getUserDetails` or `getNameAndAgeDetails`, for better understanding of the returned data.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/type-annotations.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/type-annotations.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/type-assertions.js
+suggestions for improvement:
+- Add explicit type assertion to the `inputElement` variable.  This makes the code's intent clearer and safer, aligning better with the chapter's emphasis on type assertions.
+- Include error handling for the case where `document.getElementById('myInput')` returns `null`.  While the existing `if` statement checks for null, a more explicit error message would improve robustness.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/type-assertions.ts
+suggestions for improvement:
+- Add a comment explaining the purpose of the type assertion.  While it's clear in this simple example, more complex scenarios might benefit from more explanation.
+- Consider adding error handling for the case where the element with id 'myInput' doesn't exist, perhaps a more robust message in the `else` block instead of silently ignoring the error.
+Correctness: 100%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/union-types.js
+suggestions for improvement:
+- Explicitly declare the union type for `id` using the syntax `let id: string | number;` for better clarity and type safety.  The current code works but lacks explicit type definition.
+- Add comments explaining the purpose of the code snippet.  While simple, a brief comment explaining the union type example would improve readability.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week21/Exercises/union-types.ts
+suggestions for improvement:
+- The comments could be slightly improved for clarity.  Instead of 'Valid', explicitly state what is being demonstrated, e.g.,  `// Demonstrating string assignment to union type` and `// Demonstrating number assignment to union type`.
+Correctness: 100%
+-----
