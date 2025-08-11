@@ -1,0 +1,66 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/DailyChallenge/user-api/app.js
+suggestions for improvement:
+- The code is missing the implementation of the HTML forms (register and login) as requested in instruction 1.
+- The `usersRoutes.js` file (and its implementation of the API routes) is missing.  The provided code only sets up the Express server.
+- Error handling for file read/write operations, route validation, and incorrect login credentials (instruction 6) is not implemented.
+- The code lacks crucial security measures beyond bcrypt for password hashing. Input sanitization and protection against various attacks are absent.
+- Storing user data in a JSON file is highly insecure for a production environment.  A database should be used instead.
+- The GET `/users` and GET `/users/:id` and PUT `/users/:id` routes, while implemented, lack authentication as instructed. Anyone can access them.
+- The use of `dotenv` is good for managing environment variables, but the `.env` file and its contents are not shown.
+Correctness: 60%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/DailyChallenge/user-api/knexfile.js
+suggestions for improvement:
+- The provided code is a database configuration for a PostgreSQL database using Knex.js and dotenv. It does not address any of the requirements specified in the Chapter Content/Questions, which focuses on building a user management API with Express.js, Bcrypt, and JSON file storage.  The code is completely irrelevant to the task.
+- The use of environment variables is good practice for security, but the code lacks actual implementation of the API endpoints and user management logic.
+- The `dotenv` module is used correctly to load environment variables, improving readability and maintainability.
+- Consider using a more robust storage mechanism than JSON files, especially for production environments.  Databases offer better scalability, data integrity, and security.
+- Implement input validation to prevent vulnerabilities like SQL injection (although not directly relevant to JSON storage in this case, it's a crucial security practice).
+- Implement proper authentication and authorization mechanisms, not just for demonstration purposes but as a core part of the API.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/DailyChallenge/user-api/migrations/20250704110331_create_users_table.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/DailyChallenge/user-api/migrations/20250704110332_create_hashpwd_table.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/DailyChallenge/user-api/package-lock.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/DailyChallenge/user-api/package.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/DailyChallenge/user-api/server/config/db.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/DailyChallenge/user-api/server/controllers/usersController.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/DailyChallenge/user-api/server/models/hashpwdModel.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/DailyChallenge/user-api/server/models/usersModel.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week14/DailyChallenge/user-api/server/routes/usersRoutes.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----

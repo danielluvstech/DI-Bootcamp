@@ -1,0 +1,12 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week11/Day3/Exercises/Exercise1/index.html
+suggestions for improvement:
+- Exercise 2 could be improved by explicitly handling the promise resolution and rejection, even though the prompt doesn't explicitly demand it.  Adding `.then` and `.catch` would make it more robust and align better with the overall theme of promise handling.
+- Add comments to explain the purpose of each function and the logic within the `compareToTen` function.  While the code is relatively straightforward, comments would significantly boost readability.
+- Exercise 2's instruction to use `Promise.resolve()` is not explicitly reflected in the solution. Using it would make the code more concise and aligned with best practices.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week11/Day3/Exercises/Exercise1/script.js
+suggestions for improvement:
+- The comments in the test section could be improved by explicitly stating the expected output for better clarity.  For example, instead of `// should reject`, use `// Expected output: The number 15 is greater than 10`.
+Correctness: 100%
+-----

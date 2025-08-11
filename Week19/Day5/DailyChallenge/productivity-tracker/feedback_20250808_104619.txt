@@ -1,0 +1,133 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/eslint.config.js
+suggestions for improvement:
+- The provided code is an ESLint configuration file. It does not implement any of the Redux functionality or components described in the chapter content.
+- This code defines ESLint rules and configurations for JavaScript and React projects. It's not related to the Redux application building exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/index.html
+suggestions for improvement:
+- The provided code is an HTML file for a React application. It does not contain any Redux logic, reducers, actions, selectors, or components as specified in the instructions.  It only sets up the basic HTML structure for a React app.
+- Implement Redux store, reducers (for tasks and categories), actions (add, edit, delete tasks and categories, update task progress), selectors (selectTasksByCategory, selectCompletedTasks, selectCategoryById), and components (TaskList, CategorySelector) as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which lists project dependencies but doesn't contain any implementation for the productivity tracker.  It correctly lists the necessary Redux-related packages (`@reduxjs/toolkit`, `react-redux`, `reselect`), suggesting an understanding of the technology stack. However,  no actual Redux store, reducers, selectors, or components are defined.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/package.json
+suggestions for improvement:
+- This is a `package.json` file, not an implementation of the productivity tracker.  It only sets up the project dependencies and scripts.  The actual code for the Redux store, reducers, actions, selectors, and components is missing.
+- Add the actual React components (`TaskList`, `CategorySelector`), Redux store logic (reducers, actions, selectors), and any necessary UI elements to fulfill the requirements.
+- Implement `createSelector` for `selectTasksByCategory`, `selectCompletedTasks`, and `selectCategoryById`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/src/App.css
+suggestions for improvement:
+- The provided code is CSS, not JavaScript.  It doesn't implement any of the Redux functionality, actions, reducers, selectors, or components specified in the instructions.
+- The CSS is well-structured and readable, but it's irrelevant to the assignment.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/src/App.jsx
+suggestions for improvement:
+- The provided code implements a UI for a productivity tracker but lacks the core Redux functionality described in the chapter content.
+- No Redux store, actions, reducers, or selectors are present.  The application relies on local state management only.
+- Implement Redux using `createStore`, `createReducer`, `createSelector`, `useSelector`, and `useDispatch` to manage tasks and categories as instructed.
+- Add actions for adding, editing, deleting tasks and categories, and updating task progress.
+- Implement reducers to handle these actions and update the Redux store.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/src/app/store.js
+suggestions for improvement:
+- The provided code only sets up the Redux store. It's missing the crucial parts: actions, reducers, selectors, and components (TaskList and CategorySelector) as specified in the instructions.  The `tasksReducer` and `categoriesReducer` are placeholders and their internal logic is unknown, impacting the correctness score.
+- Implement the actions (add, edit, delete tasks and categories, update task progress), reducers to handle these actions, and selectors (`selectTasksByCategory`, `selectCompletedTasks`, `selectCategoryById`) as detailed in the instructions.
+- Create the `TaskList` and `CategorySelector` components using `useSelector` and `useCallback` as instructed. These components should fetch and display data from the Redux store.
+- Include example implementations of `tasksReducer` and `categoriesReducer` to demonstrate the functionality.  Without this, it is impossible to assess the correctness related to actions and reducers.
+Correctness: 20%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/src/components/AddTask.jsx
+suggestions for improvement:
+- The provided code only implements a small part of the assignment. It focuses solely on adding tasks, ignoring other crucial aspects like editing, deleting tasks and categories, updating task progress, creating selectors, and building the TaskList and CategorySelector components.
+- The `id` generation using `Date.now()` is simple but not truly unique and could potentially lead to collisions.  Consider using a UUID library for better uniqueness.
+- Error handling could be improved. While it prevents adding tasks without a category, more robust error handling for other potential issues is needed.
+- The styling is inline and should be moved to a separate CSS file or styled-components for better maintainability and readability.
+- The code lacks the implementation of reducers, actions, and selectors as required by the chapter content.
+Correctness: 30%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/src/components/CategorySelector.jsx
+suggestions for improvement:
+- The component is missing error handling.  It assumes `state.categories` and `cat.id` and `cat.name` always exist.  Add checks to handle cases where these might be undefined or null.
+- Add prop types validation to `CategorySelector` to ensure `selectedCategory` and `onChange` are of the correct type.
+- The `key` prop in the `map` function should ideally be a unique identifier for each category.  While using `cat.id` is likely correct, explicitly stating this assumption or using a library to generate a unique key if `cat.id` is unavailable would improve robustness.
+- Consider adding accessibility attributes such as `aria-label` to the select element for better screen reader compatibility.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/src/components/TaskList.jsx
+suggestions for improvement:
+- The `TaskList` component directly implements the functionality described in point 4, creating a component that fetches and displays tasks based on selected category using `useSelector`. However, it lacks the `CategorySelector` component which is also explicitly requested in the instructions.  The handling of task editing is missing entirely.
+- The tasks filtering within the `useSelector` hook could be optimized for large datasets. Using `createSelector` as instructed would improve performance significantly. This directly relates to the chapter content on Redux performance optimization. 
+- Add error handling.  Consider what happens if `state.tasks` is undefined or null.
+- The `toggleTaskCompletion` action creator and reducer are not provided, and are crucial for the completeness of the solution.  The code assumes their existence and correct functionality.
+Correctness: 70%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/src/components/TaskStats.jsx
+suggestions for improvement:
+- The provided code does not implement the full functionality described in the Chapter Content/Questions. It only displays completed task statistics, missing the Redux setup, actions, reducers, selectors, and components (TaskList and CategorySelector) required by the instructions.
+- While the use of `useSelector` is correct and efficient for accessing Redux state, the component is very limited in scope.  It does not address the majority of the exercise.
+- Add features to address all points in the instructions, including Redux store setup, actions, reducers for tasks and categories, selectors (`selectTasksByCategory`, `selectCompletedTasks`, `selectCategoryById`), and the `TaskList` and `CategorySelector` components.
+Correctness: 20%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/src/features/categories/categoriesSlice.js
+suggestions for improvement:
+- The provided code only addresses a portion of the task. It implements reducers for categories but lacks reducers and actions for tasks, selectors (`selectTasksByCategory`, `selectCompletedTasks`, `selectCategoryById`), and the UI components (`TaskList`, `CategorySelector`).
+- The `initialState` for categories is hardcoded. Consider making it configurable or loading it from persistent storage.
+- Add input validation to prevent duplicate category IDs or empty category names.
+- Implement error handling (e.g., if a category with a given ID is not found during an edit or delete operation).
+Correctness: 70%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/src/features/categories/selectors.js
+suggestions for improvement:
+- Implement the missing parts of the Redux store, including actions, reducers for tasks and categories, and selectors for `selectTasksByCategory` and `selectCompletedTasks`.
+- Add `TaskList` and `CategorySelector` components that use `useSelector` and `useCallback` as specified.
+- Include error handling (e.g., for cases where a category or task with a given ID doesn't exist).
+- Consider using a more robust state management library for complex applications beyond this basic example.  While Redux is used, a more modern approach leveraging RTK Query might be more efficient for data fetching.
+- Add unit tests to verify the functionality of selectors and reducers.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/src/features/tasks/selectors.js
+suggestions for improvement:
+- Implement the missing parts: actions, reducers, TaskList component, CategorySelector component, task editing and completion functionality, and handling of adding, editing, and deleting tasks and categories.
+- The `selectCategoryById` selector is missing.
+- The provided selectors assume a specific structure for the task objects.  Adding types (TypeScript) would improve readability and maintainability.
+- Consider optimizing `selectCompletedTasks` for large datasets.  Memoization might be beneficial if the entire task list is frequently accessed but only a subset is needed.
+- Add error handling for cases where a category ID doesn't exist in `selectTasksByCategory`.
+Correctness: 80%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/src/features/tasks/tasksSlice.js
+suggestions for improvement:
+- The code only implements tasks, not categories.  Add reducers and actions for managing categories (add, edit, delete).
+- Implement selectors: `selectTasksByCategory`, `selectCompletedTasks`, and `selectCategoryById` using `createSelector`.
+- Create `TaskList` and `CategorySelector` components using `useSelector` and `useCallback` as instructed.
+- The `initialState` should include sample categories and associate tasks with them.
+- Consider using a more robust ID generation strategy than hardcoded IDs.
+Correctness: 70%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/src/index.css
+suggestions for improvement:
+- The provided code is CSS styling, not JavaScript code implementing Redux functionality.  It does not address any of the requirements outlined in the chapter content (Redux setup, actions, reducers, selectors, components, etc.).
+- Add JavaScript code that uses Redux to manage tasks and categories.  Implement actions, reducers, selectors, and components as specified in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/src/main.jsx
+suggestions for improvement:
+- The provided code only sets up the Redux store and renders the application. It does not implement any of the functionality described in the Chapter Content/Questions, such as actions, reducers, selectors, or the TaskList and CategorySelector components.
+- The code needs to implement the Redux logic (actions, reducers, selectors) and the UI components (TaskList, CategorySelector) to address the problem statement.
+- Add implementations for adding, editing, deleting tasks and categories, updating task progress, and using `createSelector`, `useSelector`, and `useCallback` as instructed.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week19/Day5/DailyChallenge/productivity-tracker/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file. It does not implement any of the Redux functionality, actions, reducers, selectors, or components described in the chapter content.
+- The code needs to be replaced with a React application using Redux to address the problem statement.
+Correctness: 0%
+-----

@@ -1,0 +1,56 @@
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/Mini-project/react-calculator/eslint.config.js
+suggestions for improvement:
+- This code is an ESLint configuration file. It does not implement a React calculator as described in the chapter content.
+- The chapter requires a React application that takes two numbers as input, performs an operation (addition initially, then optionally other operations), and displays the result. This code provides only ESLint rules and configurations.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/Mini-project/react-calculator/index.html
+suggestions for improvement:
+- The provided code is only an HTML file which sets up a basic React project.  It does not contain any React code that implements the calculator functionality described in the Chapter Content/Questions.  A complete React application needs to be implemented to solve the challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/Mini-project/react-calculator/package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which is a dependency management file for npm (Node Package Manager).  It does not contain any React code that implements a calculator. To assess correctness, please provide the actual React code (`.js` or `.jsx` files) that implements the calculator.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/Mini-project/react-calculator/package.json
+suggestions for improvement:
+- This is a `package.json` file, it only describes project dependencies and scripts.  It does not contain any React code that implements the calculator functionality described in the Chapter Content/Questions.  To assess correctness, the React component code itself is needed.
+- Add the actual React component code that implements the calculator as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/Mini-project/react-calculator/src/App.css
+suggestions for improvement:
+- The provided code is CSS, not JavaScript.  It does not create a React calculator as instructed.
+- The code provides styling for a logo, which is irrelevant to the chapter's requirements.
+- To meet the challenge, you need to write a React application using JavaScript (or TypeScript) that includes input fields for numbers, a select for operation choice (bonus), a button to trigger calculation, and an area to display the results.  This requires JSX, React state management, event handling, and potentially component structure.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/Mini-project/react-calculator/src/App.jsx
+suggestions for improvement:
+- Implement the bonus feature: add a `<select>` element to allow the user to choose different operations (subtraction, multiplication, division).
+- Add input validation to handle cases where the user enters non-numeric values or attempts to divide by zero.
+- Improve the UI with better styling and potentially more user-friendly design elements.
+Correctness: 90%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/Mini-project/react-calculator/src/index.css
+suggestions for improvement:
+- The provided CSS code only styles a calculator; it does not implement any of the React functionality or the calculator's logic as described in the chapter content.  It needs to be accompanied by React code to achieve the described functionality.
+- Add React code to handle user input, perform calculations, and update the displayed result.  The code should use React components, state, and event handlers as specified in the learning objectives.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/Mini-project/react-calculator/src/main.jsx
+suggestions for improvement:
+- The provided code is only a basic React setup. It doesn't contain any code for the calculator functionality described in the Chapter Content/Questions.  It needs the actual React component (`App.jsx`) to implement the calculator's UI and logic.
+- Add the calculator's logic in `App.jsx` including input fields for numbers, a select for operation type (bonus), an 'Add Them' button, and a display area for the result.
+- Implement React state to manage the input values and the calculated result.  Handle the button click event to perform the calculation and update the state.
+Correctness: 0%
+-----
+URL: URL: https://github.com/danielluvstech/DI-Bootcamp/blob/main/Week16/Day4/DailyChallenge/Mini-project/react-calculator/vite.config.js
+suggestions for improvement:
+- The provided code is a Vite configuration file. It does not contain any React code to implement the calculator.
+- The challenge requires building a React calculator with input fields, a button, and output display.  This code only sets up a development environment.
+- Implement the React components, state management, and event handling to create the calculator as described in the chapter.
+Correctness: 0%
+-----
