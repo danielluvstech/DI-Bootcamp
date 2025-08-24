@@ -1,0 +1,11 @@
+1) Introduction to JWT (quick)
+
+What: A compact token with three parts: header.payload.signature (Base64URL).
+
+Header: algo + type (e.g., { alg: "HS256", typ: "JWT" })
+node -v
+Payload: claims (e.g., sub, iat, exp, custom fields)
+
+Signature: HMAC or RSA/ECDSA over header+payload using your secret/private key
+
+Use cases: stateless session auth, API auth, microservices, short-lived access, longer-lived refresh.
